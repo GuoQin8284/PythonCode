@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"passed","scripts.message.AddContact.test_add_message[args0]","32263",""
+"passed","scripts.message.AddContact.test_add_message[args1]","33646",""

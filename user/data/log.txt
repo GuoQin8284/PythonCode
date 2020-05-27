@@ -1,0 +1,168 @@
+错误时间:2019-08-31 21:42:36.548912
+错误信息：name 'userlist' is not defined
+错误时间:2019-08-31 21:48:38.566622
+错误信息：name 'userlist' is not defined
+错误时间:2019-08-31 21:49:56.277217
+错误信息：name 'userlist' is not defined
+错误时间:2019-08-31 21:53:31.295721
+错误信息：must have exactly one of create/read/write/append mode
+错误时间:2019-08-31 21:55:23.651579
+错误信息：[Errno 2] No such file or directory: './data/user.bin'
+错误时间:2019-08-31 22:03:57.852299
+错误信息：read
+错误时间:2019-08-31 22:04:53.742210
+错误信息：read
+错误时间:2019-08-31 22:05:55.107070
+错误信息：read
+错误时间:2019-08-31 22:07:11.051327
+错误信息：name 'userlist' is not defined
+错误时间:2019-08-31 22:08:20.700000
+错误信息：name 'userlist' is not defined
+错误时间:2019-08-31 22:10:37.875483
+错误信息：name 'userlist' is not defined
+错误时间:2019-08-31 22:21:58.491395
+错误信息：name 'userlist' is not defined
+错误时间:2019-08-31 22:22:33.310588
+错误信息：name 'userlist' is not defined
+错误时间:2019-08-31 22:24:25.210395
+错误信息：name 'userlist' is not defined
+错误时间:2019-09-15 22:25:27.856364
+错误信息：'User' object has no attribute 'mysql'
+错误时间:2019-09-15 22:26:02.699301
+错误信息：'User' object has no attribute 'mysql'
+错误时间:2019-09-15 22:33:17.129969
+错误信息：'User' object has no attribute 'mysql'
+错误时间:2019-09-15 22:47:07.730199
+错误信息：(1046, 'No database selected')
+错误时间:2019-09-15 23:31:46.189348
+错误信息：(1046, 'No database selected')
+错误时间:2019-09-16 00:21:53.687070
+错误信息：[Errno 2] No such file or directory: './data/db.json'
+错误时间:2019-09-16 00:22:30.206218
+错误信息：[Errno 2] No such file or directory: './data/db.json'
+错误时间:2019-09-16 00:22:43.547647
+错误信息：[Errno 2] No such file or directory: './data/db.json'
+错误时间:2019-09-16 00:22:48.175744
+错误信息：[Errno 2] No such file or directory: './data/db.json'
+错误时间:2019-09-16 00:23:36.331087
+错误信息：[Errno 2] No such file or directory: './data/db.json'
+错误时间:2019-09-16 00:24:30.583239
+错误信息：must have exactly one of create/read/write/append mode
+错误时间:2019-09-16 00:25:42.199144
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-16 00:25:51.279295
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-16 00:33:38.070998
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-16 00:36:34.429441
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-16 00:38:22.320806
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-16 00:39:22.555785
+错误信息：'str' object has no attribute 'read'
+错误时间:2019-09-17 20:58:22.305181
+错误信息：'str' object has no attribute 'read'
+错误时间:2019-09-17 21:01:26.949069
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 21:09:15.822703
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 21:14:56.882693
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 21:19:49.129436
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 21:56:39.879562
+错误信息：(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'is not exists stu character set utf8' at line 1")
+错误时间:2019-09-17 22:03:00.140265
+错误信息：(1046, 'No database selected')
+错误时间:2019-09-17 22:05:42.291450
+错误信息：(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'unsinged primary key auto_increment,name varchar(5),pwd varchar(10))' at line 1")
+错误时间:2019-09-17 22:06:53.331609
+错误信息：(1113, 'A table must have at least 1 column')
+错误时间:2019-09-17 22:10:55.785993
+错误信息：write() argument must be str, not None
+错误时间:2019-09-17 22:13:50.431023
+错误信息：(1046, 'No database selected')
+错误时间:2019-09-17 22:16:08.870728
+错误信息：(1046, 'No database selected')
+错误时间:2019-09-17 22:22:22.541512
+错误信息：(1046, 'No database selected')
+错误时间:2019-09-17 22:43:53.244847
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 22:45:01.905158
+错误信息：'dict' object has no attribute 'read'
+错误时间:2019-09-17 22:48:12.382244
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 22:51:46.883349
+错误信息：'dict' object has no attribute 'read'
+错误时间:2019-09-17 22:52:24.606566
+错误信息：[Errno 2] No such file or directory: './data/db.json'
+错误时间:2019-09-17 22:56:31.819475
+错误信息：(1050, "Table 'student1' already exists")
+错误时间:2019-09-17 23:00:50.323733
+错误信息：'dict' object has no attribute 'read'
+错误时间:2019-09-17 23:14:25.155705
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 23:33:44.890375
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 23:34:08.329162
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 23:34:51.336426
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 23:36:01.158195
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 23:36:46.429029
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 23:40:35.693263
+错误信息：Expecting value: line 1 column 1 (char 0)
+错误时间:2019-09-17 23:42:49.588261
+错误信息：(1050, "Table 'student1' already exists")
+错误时间:2019-09-17 23:43:14.344128
+错误信息：the JSON object must be str, bytes or bytearray, not 'list'
+错误时间:2019-09-18 21:25:46.724136
+错误信息：not readable
+错误时间:2019-09-18 21:28:30.821758
+错误信息：'User1' object has no attribute 'tbName'
+错误时间:2019-09-18 21:30:20.730467
+错误信息：the JSON object must be str, bytes or bytearray, not 'dict'
+错误时间:2019-09-18 21:30:24.586946
+错误信息：the JSON object must be str, bytes or bytearray, not 'dict'
+错误时间:2019-09-18 21:39:23.319818
+错误信息：-1
+错误时间:2019-09-18 21:52:19.759603
+错误信息：'dict' object has no attribute 'key'
+错误时间:2019-09-18 21:52:50.740850
+错误信息：(1049, "Unknown database 's'")
+错误时间:2019-09-18 21:54:14.028589
+错误信息：'dict_values' object does not support indexing
+错误时间:2019-09-19 20:43:25.043877
+错误信息：(1054, "Unknown column 'guoqin' in 'where clause'")
+错误时间:2019-09-19 20:49:31.798361
+错误信息：(1054, "Unknown column 'guoqin' in 'where clause'")
+错误时间:2019-09-19 20:51:03.024788
+错误信息：(1054, "Unknown column 'guoqin' in 'where clause'")
+错误时间:2019-09-19 20:53:17.344120
+错误信息：(1054, "Unknown column 'guoqin' in 'where clause'")
+错误时间:2019-09-19 20:55:08.563830
+错误信息：(1054, "Unknown column 'guoqin' in 'where clause'")
+错误时间:2019-09-19 21:02:20.587878
+错误信息：(1054, "Unknown column 'guoqin' in 'where clause'")
+错误时间:2019-09-19 21:10:22.660350
+错误信息：(1054, "Unknown column 'guoqin' in 'where clause'")
+错误时间:2019-09-19 21:16:50.525510
+错误信息：(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'student1 values ('null','guoqin','123')' at line 1")
+错误时间:2019-09-19 21:17:52.340047
+错误信息：(1366, "Incorrect integer value: 'null' for column 'id' at row 1")
+错误时间:2019-09-19 21:25:11.365397
+错误信息：(1406, "Data too long for column 'name' at row 1")
+错误时间:2019-10-01 20:25:38.541843
+错误信息：(2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+错误时间:2019-10-01 20:25:54.534321
+错误信息：(2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+错误时间:2019-10-01 20:27:27.514800
+错误信息：(2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+错误时间:2019-10-01 20:27:39.687797
+错误信息：(2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)")
+错误时间:2019-10-01 20:28:57.530175
+错误信息：(1049, "Unknown database 'stu'")
+错误时间:2019-10-01 20:36:09.522731
+错误信息：'StuMysql' object has no attribute 'selectUser'

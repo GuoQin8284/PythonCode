@@ -1,0 +1,13 @@
+import time
+a=time.time()
+data=open(r'D:\fiddler使用.wmv',"rb+")
+backup_data=open('./back_data.mp4','wb+')
+backup_data.write(data.read())
+backup_data.seek(0)
+print(backup_data.read())
+b=time.time()
+print("开始时间：",a)
+print("结束时间：",b)
+print("共用时：",b-a)
+data.close()
+backup_data.close()

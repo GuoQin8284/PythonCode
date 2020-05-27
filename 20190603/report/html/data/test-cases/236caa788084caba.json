@@ -1,0 +1,60 @@
+{
+  "uid" : "236caa788084caba",
+  "name" : "AddContact.test_add_message[args1]",
+  "fullName" : "scripts.message.AddContact.test_add_message[args1]",
+  "historyId" : "2bc8055cef5dbcdd5e88a3ea86307f63",
+  "time" : {
+    "start" : 1559564484014,
+    "stop" : 1559564517660,
+    "duration" : 33646
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "GQ-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "640-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts.message"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts.message"
+  }, {
+    "name" : "testMethod",
+    "value" : "AddContact.test_add_message[args1]"
+  }, {
+    "name" : "package",
+    "value" : "scripts.message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "236caa788084caba.json",
+  "parameterValues" : [ ]
+}

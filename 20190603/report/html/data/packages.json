@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts.message",
+    "children" : [ {
+      "name" : "AddContact.test_add_message[args0]",
+      "uid" : "10795881924ad762",
+      "parentUid" : "897029e6a47788ed80e83b9146fdb7b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559564451743,
+        "stop" : 1559564484006,
+        "duration" : 32263
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "AddContact.test_add_message[args1]",
+      "uid" : "236caa788084caba",
+      "parentUid" : "897029e6a47788ed80e83b9146fdb7b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559564484014,
+        "stop" : 1559564517660,
+        "duration" : 33646
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "scripts.message"
+  } ]
+}

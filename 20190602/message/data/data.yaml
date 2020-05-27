@@ -1,0 +1,10 @@
+test_send_message:
+  test01:
+    phone: '18811112222'
+    content: '123,hello,你好'
+  test02:
+    phone: '18811112222'
+    content: '123,hello,你好'
+  test03:
+    phone: '18811112222'
+    content: '123,hello,你好'

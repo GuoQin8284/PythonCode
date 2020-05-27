@@ -1,0 +1,4 @@
+[
+  "scripts/test_add_contact.py::TestContact::()::test_contact[zhangsan-18012345678]",
+  "scripts/test_add_contact.py::TestContact::()::test_contact[lisi-13456781234]"
+]

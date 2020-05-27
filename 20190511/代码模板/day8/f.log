@@ -1,0 +1,4 @@
+2019-05-11 10:53:08,468 INFO [root] [lianxi_03_logging_format.py(<module>:17)] - 一般级别
+2019-05-11 10:53:08,480 WARNING [root] [lianxi_03_logging_format.py(<module>:18)] - 警告级别
+2019-05-11 10:53:08,481 ERROR [root] [lianxi_03_logging_format.py(<module>:19)] - 错误级别
+2019-05-11 10:53:08,481 CRITICAL [root] [lianxi_03_logging_format.py(<module>:20)] - 严重错误级别

@@ -1,0 +1,8 @@
+message:
+  test_add_message:
+    test_01:
+      name: "zhangsan"
+      num: 18012345678
+    test_02:
+      name: "lisi"
+      num: 13000000000

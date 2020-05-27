@@ -1,0 +1,5 @@
+[
+  "fixture/test_parametized.py::Test_para::()::test_01[1]",
+  "fixture/test_parametized.py::Test_para::()::test_01[2]",
+  "fixture/test_parametized.py::Test_para::()::test_01[3]"
+]

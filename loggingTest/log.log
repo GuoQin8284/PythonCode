@@ -1,0 +1,5 @@
+DEBUG loginTest.py <module> :4 53260 2019-10-01 15:56:28,012
+INFO loginTest.py <module> :5 53260 2019-10-01 15:56:28,012
+WARNING loginTest.py <module> :6 53260 2019-10-01 15:56:28,012
+ERROR loginTest.py <module> :7 53260 2019-10-01 15:56:28,012
+CRITICAL loginTest.py <module> :8 53260 2019-10-01 15:56:28,012

@@ -1,0 +1,5 @@
+2019-05-11 18:17:18,077  DEBUG  [ha]  [logging_01.py(<module>:16)]  -  debug
+2019-05-11 18:17:18,077  INFO  [ha]  [logging_01.py(<module>:18)]  -  info
+2019-05-11 18:17:18,077  WARNING  [ha]  [logging_01.py(<module>:20)]  -  warning
+2019-05-11 18:17:18,077  ERROR  [ha]  [logging_01.py(<module>:22)]  -  error
+2019-05-11 18:17:18,077  CRITICAL  [ha]  [logging_01.py(<module>:24)]  -  critical

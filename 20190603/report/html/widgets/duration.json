@@ -1,0 +1,21 @@
+[ {
+  "uid" : "10795881924ad762",
+  "name" : "AddContact.test_add_message[args0]",
+  "time" : {
+    "start" : 1559564451743,
+    "stop" : 1559564484006,
+    "duration" : 32263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "236caa788084caba",
+  "name" : "AddContact.test_add_message[args1]",
+  "time" : {
+    "start" : 1559564484014,
+    "stop" : 1559564517660,
+    "duration" : 33646
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,4 @@
+{
+  "scripts/send_message.py": true,
+  "scripts/send_message.py::SendMessage::()::test_send_message": true
+}

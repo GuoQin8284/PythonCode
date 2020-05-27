@@ -1,0 +1,4 @@
+[
+  "scripts/message.py::AddContact::()::test_add_message[args0]",
+  "scripts/message.py::AddContact::()::test_add_message[args1]"
+]

@@ -1,0 +1,5 @@
+{
+  "fixture/test_fixture.py::Test_login::()::test_03": true,
+  "fixture/test_fixture.py::Test_login::()::test_06": true,
+  "fixture/test_parametized.py::test_para::()::test_01": true
+}

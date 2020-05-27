@@ -1,0 +1,38 @@
+import time
+from selenium import webdriver
+driver=webdriver.Chrome()
+driver.get("http://localhost")
+driver.maximize_window()
+# 注册
+# driver.find_element_by_link_text("注册").click()
+# time.sleep(2)
+# driver.find_element_by_css_selector("#username").send_keys(18012345678)
+# driver.find_element_by_css_selector("input[class='inp imgcode J_imgcode']").send_keys("8888")
+# driver.find_element_by_css_selector("#password").send_keys("123456")
+# driver.find_element_by_css_selector("input[placeholder='请再次输入密码']").send_keys("123456")
+# driver.find_element_by_css_selector("div input[name='invite']").send_keys("18012345687")
+# print(driver.find_element_by_css_selector("input[class='iyes fn-fl J_protocal']").is_selected())
+# driver.find_element_by_css_selector("input[class='iyes fn-fl J_protocal']").click()
+# print(driver.find_element_by_css_selector("input[class='iyes fn-fl J_protocal']").is_selected())
+# driver.find_element_by_xpath('//a[contains(text(),"同意协议")]').click()
+# 登录
+driver.find_element_by_link_text("登录").click()
+time.sleep(2)
+driver.find_element_by_css_selector("#username").send_keys("18012345678")
+driver.find_element_by_css_selector("#password").send_keys("123456")
+driver.find_element_by_css_selector("#verify_code").send_keys("8888")
+driver.find_element_by_link_text("登    录").click()
+# 进入首页
+time.sleep(2)
+driver.find_element_by_link_text("首页").click()
+# 搜索商品
+time.sleep(3)
+driver.find_element_by_css_selector("#q").send_keys("小米")
+driver.find_element_by_class_name("ecsc-search-button").click()
+driver.find_element_by_xpath("//a[contains(text(),'小米手机5')]").click()
+driver.find_element_by_css_selector("#join_cart_now").click()
+time.sleep(5)
+# driver.find_element_by_xpath("//input[@class='wi80-BFB' and @name='consignee']").send_keys("haha")
+# driver.find_element_by_xpath("/html/body/div/div/div/form/table/tbody/tr[1]/td[2]/input").send_keys("haha")
+driver.find_element_by_xpath('/html/body/div/div/div/form/table/tbody/tr[1]/td[2]/input').send_keys("hahah")
+driver.find_element_by_css_selector("#province").click("湖北省")

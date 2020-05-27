@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts.message",
+    "children" : [ {
+      "name" : "AddContact.test_add_message[args0]",
+      "uid" : "10795881924ad762",
+      "parentUid" : "4f1ecc14615f097f98ad5fb3c1884fc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559564451743,
+        "stop" : 1559564484006,
+        "duration" : 32263
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "AddContact.test_add_message[args1]",
+      "uid" : "236caa788084caba",
+      "parentUid" : "4f1ecc14615f097f98ad5fb3c1884fc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559564484014,
+        "stop" : 1559564517660,
+        "duration" : 33646
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4f1ecc14615f097f98ad5fb3c1884fc6"
+  } ]
+}

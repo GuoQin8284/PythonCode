@@ -1,0 +1,14 @@
+2019-05-11 14:40:43,859  INFO  [root]  [lianxi_05_logging_logger_handler_formatter.py(<module>:31)]  -  一般级别
+2019-05-11 14:40:43,860  WARNING  [root]  [lianxi_05_logging_logger_handler_formatter.py(<module>:32)]  -  警告级别
+2019-05-11 14:40:43,860  ERROR  [root]  [lianxi_05_logging_logger_handler_formatter.py(<module>:33)]  -  错误级别
+2019-05-11 14:40:43,860  CRITICAL  [root]  [lianxi_05_logging_logger_handler_formatter.py(<module>:34)]  -  严重错误级别
+2019-05-11 14:42:53,788  DEBUG  [root]  [lianxi_05_logging_logger_handler_formatter.py(<module>:30)]  -  调试级别
+2019-05-11 14:42:53,788  INFO  [root]  [lianxi_05_logging_logger_handler_formatter.py(<module>:31)]  -  一般级别
+2019-05-11 14:42:53,789  WARNING  [root]  [lianxi_05_logging_logger_handler_formatter.py(<module>:32)]  -  警告级别
+2019-05-11 14:42:53,789  ERROR  [root]  [lianxi_05_logging_logger_handler_formatter.py(<module>:33)]  -  错误级别
+2019-05-11 14:42:53,789  CRITICAL  [root]  [lianxi_05_logging_logger_handler_formatter.py(<module>:34)]  -  严重错误级别
+2019-05-11 14:57:46,822  DEBUG  [value]  [lianxi_05_logging_logger_handler_formatter.py(<module>:30)]  -  调试级别
+2019-05-11 14:57:46,822  INFO  [value]  [lianxi_05_logging_logger_handler_formatter.py(<module>:31)]  -  一般级别
+2019-05-11 14:57:46,823  WARNING  [value]  [lianxi_05_logging_logger_handler_formatter.py(<module>:32)]  -  警告级别
+2019-05-11 14:57:46,823  ERROR  [value]  [lianxi_05_logging_logger_handler_formatter.py(<module>:33)]  -  错误级别
+2019-05-11 14:57:46,823  CRITICAL  [value]  [lianxi_05_logging_logger_handler_formatter.py(<module>:34)]  -  严重错误级别

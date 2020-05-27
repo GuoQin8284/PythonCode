@@ -1,0 +1,27 @@
+{
+  "username_error":{
+    "username":"18000000000",
+    "pwd":"123456",
+    "verify_code":"8888",
+    "bool":false,
+    "expect":"账号不存在"
+
+}, "pwd_error":{
+    "username":"18012345678",
+    "pwd":"123321",
+    "verify_code":"8888",
+    "bool":false,
+    "expect":"密码错误"
+
+
+  },
+  "login_success":{
+    "username":"18012345678",
+    "pwd":"123456",
+    "verify_code":"8888",
+    "bool":true,
+    "expect":"我的账户"
+
+  }
+
+}
