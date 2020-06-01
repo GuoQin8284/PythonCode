@@ -1,0 +1,17 @@
+- "1"
+- "2"
+-
+  name:
+    - "xiaoming"
+    - "xiaohong"
+  age: "18"
+-
+  -
+   name: "xiaoqing"
+   age: "28"
+  - "3"
+  - "4"
+- "5"
+-
+  - "7"
+  - "8"
