@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_contact",
+      "children" : [ {
+        "name" : "test_add_contact[args0]",
+        "uid" : "3178f3c6e788d8eb",
+        "parentUid" : "2f95b1347bbab77cbfc9fd4fe609969b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591069980524,
+          "stop" : 1591070001829,
+          "duration" : 21305
+        },
+        "flaky" : false,
+        "parameters" : [ "{'contact_text': 'xiaoming', 'phone': 15549080517}" ]
+      }, {
+        "name" : "test_add_contact[args1]",
+        "uid" : "7c5777e7e3762d87",
+        "parentUid" : "2f95b1347bbab77cbfc9fd4fe609969b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591070011529,
+          "stop" : 1591070032276,
+          "duration" : 20747
+        },
+        "flaky" : false,
+        "parameters" : [ "{'contact_text': 'xiaohong', 'phone': 18071102549}" ]
+      }, {
+        "name" : "test_add_contact[args2]",
+        "uid" : "1918c1f3f767f406",
+        "parentUid" : "2f95b1347bbab77cbfc9fd4fe609969b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591070040728,
+          "stop" : 1591070061262,
+          "duration" : 20534
+        },
+        "flaky" : false,
+        "parameters" : [ "{'contact_text': 'zhangsan', 'phone': 13645897995}" ]
+      } ],
+      "uid" : "2f95b1347bbab77cbfc9fd4fe609969b"
+    }, {
+      "name" : "test_mms",
+      "children" : [ {
+        "name" : "test_sendMms[18871102549-hello01]",
+        "uid" : "7343bd44faa5db55",
+        "parentUid" : "070f7c9c00b631792cebc55b940eee1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591070070512,
+          "stop" : 1591070085358,
+          "duration" : 14846
+        },
+        "flaky" : false,
+        "parameters" : [ "18871102549", "'hello01'" ]
+      }, {
+        "name" : "test_sendMms[13545687895-这是中国哈哈哈哈]",
+        "uid" : "b8c676b79816f5bf",
+        "parentUid" : "070f7c9c00b631792cebc55b940eee1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591070094079,
+          "stop" : 1591070108067,
+          "duration" : 13988
+        },
+        "flaky" : false,
+        "parameters" : [ "13545687895", "'这是中国哈哈哈哈'" ]
+      } ],
+      "uid" : "070f7c9c00b631792cebc55b940eee1e"
+    } ],
+    "uid" : "8083a48773cbfbc2897cb0336273acc5"
+  } ]
+}

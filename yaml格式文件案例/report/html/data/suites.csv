@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","scripts.test_contact.TestContact#test_add_contact","18129",""
+"passed","scripts.test_contact.TestContact#test_add_contact","17417",""
+"passed","scripts.test_contact.TestContact#test_add_contact","19083",""

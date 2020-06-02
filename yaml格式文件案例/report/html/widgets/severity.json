@@ -1,0 +1,31 @@
+[ {
+  "uid" : "4188ba65fa3cb2d6",
+  "name" : "test_add_contact[args0]",
+  "time" : {
+    "start" : 1591022561054,
+    "stop" : 1591022580137,
+    "duration" : 19083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e28fd16ddc2e3e2",
+  "name" : "test_add_contact[args2]",
+  "time" : {
+    "start" : 1591022618154,
+    "stop" : 1591022635571,
+    "duration" : 17417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2013f46c90f32a9f",
+  "name" : "test_add_contact[args1]",
+  "time" : {
+    "start" : 1591022589351,
+    "stop" : 1591022607480,
+    "duration" : 18129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

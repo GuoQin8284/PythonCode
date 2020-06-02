@@ -1,0 +1,51 @@
+[ {
+  "uid" : "3178f3c6e788d8eb",
+  "name" : "test_add_contact[args0]",
+  "time" : {
+    "start" : 1591069980524,
+    "stop" : 1591070001829,
+    "duration" : 21305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1918c1f3f767f406",
+  "name" : "test_add_contact[args2]",
+  "time" : {
+    "start" : 1591070040728,
+    "stop" : 1591070061262,
+    "duration" : 20534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7343bd44faa5db55",
+  "name" : "test_sendMms[18871102549-hello01]",
+  "time" : {
+    "start" : 1591070070512,
+    "stop" : 1591070085358,
+    "duration" : 14846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8c676b79816f5bf",
+  "name" : "test_sendMms[13545687895-这是中国哈哈哈哈]",
+  "time" : {
+    "start" : 1591070094079,
+    "stop" : 1591070108067,
+    "duration" : 13988
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c5777e7e3762d87",
+  "name" : "test_add_contact[args1]",
+  "time" : {
+    "start" : 1591070011529,
+    "stop" : 1591070032276,
+    "duration" : 20747
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

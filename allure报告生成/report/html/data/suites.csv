@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","scripts.test_mms.TestMms#test_sendMms","14846",""
+"passed","scripts.test_mms.TestMms#test_sendMms","13988",""
+"passed","scripts.test_contact.TestContact#test_add_contact","20534",""
+"passed","scripts.test_contact.TestContact#test_add_contact","20747",""
+"passed","scripts.test_contact.TestContact#test_add_contact","21305",""

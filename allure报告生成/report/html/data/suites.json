@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_contact",
+      "children" : [ {
+        "name" : "TestContact",
+        "children" : [ {
+          "name" : "test_add_contact[args0]",
+          "uid" : "3178f3c6e788d8eb",
+          "parentUid" : "ab29077624047088625b1b849f580615",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591069980524,
+            "stop" : 1591070001829,
+            "duration" : 21305
+          },
+          "flaky" : false,
+          "parameters" : [ "{'contact_text': 'xiaoming', 'phone': 15549080517}" ]
+        }, {
+          "name" : "test_add_contact[args1]",
+          "uid" : "7c5777e7e3762d87",
+          "parentUid" : "ab29077624047088625b1b849f580615",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591070011529,
+            "stop" : 1591070032276,
+            "duration" : 20747
+          },
+          "flaky" : false,
+          "parameters" : [ "{'contact_text': 'xiaohong', 'phone': 18071102549}" ]
+        }, {
+          "name" : "test_add_contact[args2]",
+          "uid" : "1918c1f3f767f406",
+          "parentUid" : "ab29077624047088625b1b849f580615",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591070040728,
+            "stop" : 1591070061262,
+            "duration" : 20534
+          },
+          "flaky" : false,
+          "parameters" : [ "{'contact_text': 'zhangsan', 'phone': 13645897995}" ]
+        } ],
+        "uid" : "ab29077624047088625b1b849f580615"
+      } ],
+      "uid" : "f32796348a493974b8d9dfdeab0b3109"
+    }, {
+      "name" : "test_mms",
+      "children" : [ {
+        "name" : "TestMms",
+        "children" : [ {
+          "name" : "test_sendMms[18871102549-hello01]",
+          "uid" : "7343bd44faa5db55",
+          "parentUid" : "1a0f5b939503287de469bc4cecc56cb9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591070070512,
+            "stop" : 1591070085358,
+            "duration" : 14846
+          },
+          "flaky" : false,
+          "parameters" : [ "18871102549", "'hello01'" ]
+        }, {
+          "name" : "test_sendMms[13545687895-这是中国哈哈哈哈]",
+          "uid" : "b8c676b79816f5bf",
+          "parentUid" : "1a0f5b939503287de469bc4cecc56cb9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591070094079,
+            "stop" : 1591070108067,
+            "duration" : 13988
+          },
+          "flaky" : false,
+          "parameters" : [ "13545687895", "'这是中国哈哈哈哈'" ]
+        } ],
+        "uid" : "1a0f5b939503287de469bc4cecc56cb9"
+      } ],
+      "uid" : "b544608fc5b2ce3fe9384181026e3d26"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}

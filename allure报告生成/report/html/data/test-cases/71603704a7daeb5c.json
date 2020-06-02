@@ -1,0 +1,56 @@
+{
+  "uid" : "71603704a7daeb5c",
+  "name" : "test_add_contact[args2]",
+  "fullName" : "scripts.test_contact.TestContact#test_add_contact",
+  "historyId" : "7bd83e5fe9aa4825e7d446af6716e48a",
+  "time" : {
+    "start" : 1591022618154,
+    "stop" : 1591022635571,
+    "duration" : 17417
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContact"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1B6BQCE"
+  }, {
+    "name" : "thread",
+    "value" : "3156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'contact_text': 'zhangsan', 'phone': 13645897995}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71603704a7daeb5c.json",
+  "parameterValues" : [ "{'contact_text': 'zhangsan', 'phone': 13645897995}" ]
+}
