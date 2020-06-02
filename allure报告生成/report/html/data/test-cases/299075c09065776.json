@@ -1,12 +1,12 @@
 {
-  "uid" : "e7969bcb61b8714c",
-  "name" : "test_add_contact[args2]",
+  "uid" : "299075c09065776",
+  "name" : "test_add_contact[args1]",
   "fullName" : "scripts.test_contact.TestContact#test_add_contact",
-  "historyId" : "7bd83e5fe9aa4825e7d446af6716e48a",
+  "historyId" : "ea80bad5f7956f055c9c2b50ee0b297c",
   "time" : {
-    "start" : 1591066635194,
-    "stop" : 1591066652922,
-    "duration" : 17728
+    "start" : 1591066608936,
+    "stop" : 1591066626607,
+    "duration" : 17671
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,106 +16,106 @@
     "steps" : [ {
       "name" : "点击新建联系人按钮",
       "time" : {
-        "start" : 1591066635194,
-        "stop" : 1591066635983,
-        "duration" : 789
+        "start" : 1591066608936,
+        "stop" : 1591066610120,
+        "duration" : 1184
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "判断是否有保存的toast提示",
       "time" : {
-        "start" : 1591066635983,
-        "stop" : 1591066638374,
-        "duration" : 2391
+        "start" : 1591066610120,
+        "stop" : 1591066612633,
+        "duration" : 2513
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "输入联系人",
       "time" : {
-        "start" : 1591066638374,
-        "stop" : 1591066643245,
-        "duration" : 4871
+        "start" : 1591066612633,
+        "stop" : 1591066618014,
+        "duration" : 5381
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "contact_text",
-        "value" : "'zhangsan'"
+        "value" : "'xiaohong'"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "输入电话号码",
       "time" : {
-        "start" : 1591066643245,
-        "stop" : 1591066649203,
-        "duration" : 5958
+        "start" : 1591066618014,
+        "stop" : 1591066624283,
+        "duration" : 6269
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "contact_phone",
-        "value" : "13645897995"
+        "value" : "18071102549"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "获取联系人姓名",
       "time" : {
-        "start" : 1591066650106,
-        "stop" : 1591066652863,
-        "duration" : 2757
+        "start" : 1591066625188,
+        "stop" : 1591066626582,
+        "duration" : 1394
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "获取电话号码",
       "time" : {
-        "start" : 1591066652863,
-        "stop" : 1591066652922,
-        "duration" : 59
+        "start" : 1591066626582,
+        "stop" : 1591066626607,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "hasContent" : true,
-    "stepsCount" : 6
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -148,7 +148,7 @@
   } ],
   "parameters" : [ {
     "name" : "args",
-    "value" : "{'contact_text': 'zhangsan', 'phone': 13645897995}"
+    "value" : "{'contact_text': 'xiaohong', 'phone': 18071102549}"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -157,6 +157,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e7969bcb61b8714c.json",
-  "parameterValues" : [ "{'contact_text': 'zhangsan', 'phone': 13645897995}" ]
+  "source" : "299075c09065776.json",
+  "parameterValues" : [ "{'contact_text': 'xiaohong', 'phone': 18071102549}" ]
 }

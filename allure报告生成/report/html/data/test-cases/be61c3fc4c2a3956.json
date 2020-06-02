@@ -1,5 +1,5 @@
 {
-  "uid" : "afd52b00e7394649",
+  "uid" : "be61c3fc4c2a3956",
   "name" : "test_add_contact[args0]",
   "fullName" : "scripts.test_contact.TestContact#test_add_contact",
   "historyId" : "22717db7b3c6143612064d34d59e9ef7",
@@ -51,6 +51,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "afd52b00e7394649.json",
+  "source" : "be61c3fc4c2a3956.json",
   "parameterValues" : [ "{'contact_text': 'xiaoming', 'phone': 15549080517}" ]
 }

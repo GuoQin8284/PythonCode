@@ -1,5 +1,5 @@
 {
-  "uid" : "1918c1f3f767f406",
+  "uid" : "dbf62947ba8c3b75",
   "name" : "test_add_contact[args2]",
   "fullName" : "scripts.test_contact.TestContact#test_add_contact",
   "historyId" : "7bd83e5fe9aa4825e7d446af6716e48a",
@@ -24,10 +24,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "判断是否有保存的toast提示",
       "time" : {
@@ -39,10 +39,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "输入联系人",
       "time" : {
@@ -53,15 +53,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "7e0895686e0c2a8e",
+        "uid" : "c1b82d520252a913",
         "name" : "zhangsan",
-        "source" : "7e0895686e0c2a8e.txt",
+        "source" : "c1b82d520252a913.txt",
         "type" : "text/plain",
         "size" : 27
       }, {
-        "uid" : "c2a55029261f00d",
+        "uid" : "364f0db5273f9f39",
         "name" : "截图",
-        "source" : "c2a55029261f00d.png",
+        "source" : "364f0db5273f9f39.png",
         "type" : "image/png",
         "size" : 87579
       } ],
@@ -69,10 +69,10 @@
         "name" : "contact_text",
         "value" : "'zhangsan'"
       } ],
-      "attachmentsCount" : 2,
-      "shouldDisplayMessage" : false,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "输入电话号码",
       "time" : {
@@ -83,15 +83,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "17e8b269f75a9a50",
+        "uid" : "77ea4d2f472405b6",
         "name" : "13645897995",
-        "source" : "17e8b269f75a9a50.txt",
+        "source" : "77ea4d2f472405b6.txt",
         "type" : "text/plain",
         "size" : 24
       }, {
-        "uid" : "fedf3f2a1b335826",
+        "uid" : "e6d788deab25ec46",
         "name" : "截图",
-        "source" : "fedf3f2a1b335826.png",
+        "source" : "e6d788deab25ec46.png",
         "type" : "image/png",
         "size" : 92822
       } ],
@@ -99,10 +99,10 @@
         "name" : "contact_phone",
         "value" : "13645897995"
       } ],
-      "attachmentsCount" : 2,
-      "shouldDisplayMessage" : false,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "获取联系人姓名",
       "time" : {
@@ -114,10 +114,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "获取电话号码",
       "time" : {
@@ -129,17 +129,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 4,
-    "shouldDisplayMessage" : false,
     "hasContent" : true,
-    "stepsCount" : 6
+    "stepsCount" : 6,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -175,38 +175,12 @@
     "value" : "{'contact_text': 'zhangsan', 'phone': 13645897995}"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "e7969bcb61b8714c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591066635194,
-        "stop" : 1591066652922,
-        "duration" : 17728
-      }
-    }, {
-      "uid" : "3dba312d36dcfc48",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591065955739,
-        "stop" : 1591065973462,
-        "duration" : 17723
-      }
-    }, {
-      "uid" : "71603704a7daeb5c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591022618154,
-        "stop" : 1591022635571,
-        "duration" : 17417
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1918c1f3f767f406.json",
+  "source" : "dbf62947ba8c3b75.json",
   "parameterValues" : [ "{'contact_text': 'zhangsan', 'phone': 13645897995}" ]
 }

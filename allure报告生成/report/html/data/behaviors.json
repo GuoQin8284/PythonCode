@@ -3,61 +3,61 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_add_contact[args0]",
-    "uid" : "3178f3c6e788d8eb",
+    "uid" : "22ab7fca5313cfea",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1591069980524,
-      "stop" : 1591070001829,
-      "duration" : 21305
+      "start" : 1591086377214,
+      "stop" : 1591086393859,
+      "duration" : 16645
     },
     "flaky" : false,
     "parameters" : [ "{'contact_text': 'xiaoming', 'phone': 15549080517}" ]
   }, {
     "name" : "test_add_contact[args1]",
-    "uid" : "7c5777e7e3762d87",
+    "uid" : "5854016776b550f2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1591070011529,
-      "stop" : 1591070032276,
-      "duration" : 20747
+      "start" : 1591086401593,
+      "stop" : 1591086417887,
+      "duration" : 16294
     },
     "flaky" : false,
     "parameters" : [ "{'contact_text': 'xiaohong', 'phone': 18071102549}" ]
   }, {
     "name" : "test_add_contact[args2]",
-    "uid" : "1918c1f3f767f406",
+    "uid" : "94d25536d62d3a0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1591070040728,
-      "stop" : 1591070061262,
-      "duration" : 20534
+      "start" : 1591086426095,
+      "stop" : 1591086443170,
+      "duration" : 17075
     },
     "flaky" : false,
     "parameters" : [ "{'contact_text': 'zhangsan', 'phone': 13645897995}" ]
   }, {
     "name" : "test_sendMms[18871102549-hello01]",
-    "uid" : "7343bd44faa5db55",
+    "uid" : "922fb3430633b76",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1591070070512,
-      "stop" : 1591070085358,
-      "duration" : 14846
+      "start" : 1591086450849,
+      "stop" : 1591086463842,
+      "duration" : 12993
     },
     "flaky" : false,
     "parameters" : [ "18871102549", "'hello01'" ]
   }, {
     "name" : "test_sendMms[13545687895-这是中国哈哈哈哈]",
-    "uid" : "b8c676b79816f5bf",
+    "uid" : "f558f17a0f2164ac",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1591070094079,
-      "stop" : 1591070108067,
-      "duration" : 13988
+      "start" : 1591086471985,
+      "stop" : 1591086484929,
+      "duration" : 12944
     },
     "flaky" : false,
     "parameters" : [ "13545687895", "'这是中国哈哈哈哈'" ]

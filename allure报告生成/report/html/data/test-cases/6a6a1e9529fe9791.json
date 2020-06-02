@@ -1,12 +1,12 @@
 {
-  "uid" : "3dba312d36dcfc48",
-  "name" : "test_add_contact[args2]",
+  "uid" : "6a6a1e9529fe9791",
+  "name" : "test_add_contact[args0]",
   "fullName" : "scripts.test_contact.TestContact#test_add_contact",
-  "historyId" : "7bd83e5fe9aa4825e7d446af6716e48a",
+  "historyId" : "22717db7b3c6143612064d34d59e9ef7",
   "time" : {
-    "start" : 1591065955739,
-    "stop" : 1591065973462,
-    "duration" : 17723
+    "start" : 1591022561054,
+    "stop" : 1591022580137,
+    "duration" : 19083
   },
   "status" : "passed",
   "flaky" : false,
@@ -26,7 +26,7 @@
     "value" : "DESKTOP-1B6BQCE"
   }, {
     "name" : "thread",
-    "value" : "17372-MainThread"
+    "value" : "3156-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -42,7 +42,7 @@
   } ],
   "parameters" : [ {
     "name" : "args",
-    "value" : "{'contact_text': 'zhangsan', 'phone': 13645897995}"
+    "value" : "{'contact_text': 'xiaoming', 'phone': 15549080517}"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -51,6 +51,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3dba312d36dcfc48.json",
-  "parameterValues" : [ "{'contact_text': 'zhangsan', 'phone': 13645897995}" ]
+  "source" : "6a6a1e9529fe9791.json",
+  "parameterValues" : [ "{'contact_text': 'xiaoming', 'phone': 15549080517}" ]
 }

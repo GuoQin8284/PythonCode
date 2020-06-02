@@ -1,12 +1,12 @@
 {
-  "uid" : "7343bd44faa5db55",
-  "name" : "test_sendMms[18871102549-hello01]",
+  "uid" : "f558f17a0f2164ac",
+  "name" : "test_sendMms[13545687895-这是中国哈哈哈哈]",
   "fullName" : "scripts.test_mms.TestMms#test_sendMms",
-  "historyId" : "1e0bda93a1e0d37750e0b2be81fd78e6",
+  "historyId" : "ea016c4e4f45557536041d6c0e61a850",
   "time" : {
-    "start" : 1591070070512,
-    "stop" : 1591070085358,
-    "duration" : 14846
+    "start" : 1591086471985,
+    "stop" : 1591086484929,
+    "duration" : 12944
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,76 +16,76 @@
     "steps" : [ {
       "name" : "点击新建短信按钮",
       "time" : {
-        "start" : 1591070070512,
-        "stop" : 1591070071873,
-        "duration" : 1361
+        "start" : 1591086471985,
+        "stop" : 1591086472750,
+        "duration" : 765
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "输入短信接收人",
       "time" : {
-        "start" : 1591070071873,
-        "stop" : 1591070078682,
-        "duration" : 6809
+        "start" : 1591086472750,
+        "stop" : 1591086478599,
+        "duration" : 5849
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "text",
-        "value" : "18871102549"
+        "value" : "13545687895"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "输入短信内容",
       "time" : {
-        "start" : 1591070078682,
-        "stop" : 1591070084642,
-        "duration" : 5960
+        "start" : 1591086478599,
+        "stop" : 1591086484023,
+        "duration" : 5424
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "text",
-        "value" : "'hello01'"
+        "value" : "'这是中国哈哈哈哈'"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "点击发送按钮，发送短信",
       "time" : {
-        "start" : 1591070084642,
-        "stop" : 1591070085358,
-        "duration" : 716
+        "start" : 1591086484023,
+        "stop" : 1591086484929,
+        "duration" : 906
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "hasContent" : false,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "hasContent" : true,
-    "stepsCount" : 4
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -102,7 +102,7 @@
     "value" : "DESKTOP-1B6BQCE"
   }, {
     "name" : "thread",
-    "value" : "26076-MainThread"
+    "value" : "19152-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -118,20 +118,28 @@
   } ],
   "parameters" : [ {
     "name" : "recipienter",
-    "value" : "18871102549"
+    "value" : "13545687895"
   }, {
     "name" : "text",
-    "value" : "'hello01'"
+    "value" : "'这是中国哈哈哈哈'"
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "c360d891c4c28be4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591070094079,
+        "stop" : 1591070108067,
+        "duration" : 13988
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7343bd44faa5db55.json",
-  "parameterValues" : [ "18871102549", "'hello01'" ]
+  "source" : "f558f17a0f2164ac.json",
+  "parameterValues" : [ "13545687895", "'这是中国哈哈哈哈'" ]
 }

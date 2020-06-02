@@ -1,12 +1,12 @@
 {
-  "uid" : "71603704a7daeb5c",
-  "name" : "test_add_contact[args2]",
+  "uid" : "a22997be9c1af270",
+  "name" : "test_add_contact[args1]",
   "fullName" : "scripts.test_contact.TestContact#test_add_contact",
-  "historyId" : "7bd83e5fe9aa4825e7d446af6716e48a",
+  "historyId" : "ea80bad5f7956f055c9c2b50ee0b297c",
   "time" : {
-    "start" : 1591022618154,
-    "stop" : 1591022635571,
-    "duration" : 17417
+    "start" : 1591065930201,
+    "stop" : 1591065947052,
+    "duration" : 16851
   },
   "status" : "passed",
   "flaky" : false,
@@ -26,7 +26,7 @@
     "value" : "DESKTOP-1B6BQCE"
   }, {
     "name" : "thread",
-    "value" : "3156-MainThread"
+    "value" : "17372-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -42,7 +42,7 @@
   } ],
   "parameters" : [ {
     "name" : "args",
-    "value" : "{'contact_text': 'zhangsan', 'phone': 13645897995}"
+    "value" : "{'contact_text': 'xiaohong', 'phone': 18071102549}"
   } ],
   "links" : [ ],
   "hidden" : true,
@@ -51,6 +51,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "71603704a7daeb5c.json",
-  "parameterValues" : [ "{'contact_text': 'zhangsan', 'phone': 13645897995}" ]
+  "source" : "a22997be9c1af270.json",
+  "parameterValues" : [ "{'contact_text': 'xiaohong', 'phone': 18071102549}" ]
 }

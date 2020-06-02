@@ -2,19 +2,20 @@
   "ea80bad5f7956f055c9c2b50ee0b297c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7c5777e7e3762d87",
-      "status" : "passed",
+      "uid" : "5854016776b550f2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: a bytes-like object is required, not 'int'",
       "time" : {
-        "start" : 1591070011529,
-        "stop" : 1591070032276,
-        "duration" : 20747
+        "start" : 1591086401593,
+        "stop" : 1591086417887,
+        "duration" : 16294
       }
     } ]
   },
@@ -28,50 +29,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b8c676b79816f5bf",
+      "uid" : "f558f17a0f2164ac",
       "status" : "passed",
       "time" : {
-        "start" : 1591070094079,
-        "stop" : 1591070108067,
-        "duration" : 13988
-      }
-    } ]
-  },
-  "22717db7b3c6143612064d34d59e9ef7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3178f3c6e788d8eb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591069980524,
-        "stop" : 1591070001829,
-        "duration" : 21305
+        "start" : 1591086471985,
+        "stop" : 1591086484929,
+        "duration" : 12944
       }
     } ]
   },
   "7bd83e5fe9aa4825e7d446af6716e48a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1918c1f3f767f406",
-      "status" : "passed",
+      "uid" : "94d25536d62d3a0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: a bytes-like object is required, not 'int'",
       "time" : {
-        "start" : 1591070040728,
-        "stop" : 1591070061262,
-        "duration" : 20534
+        "start" : 1591086426095,
+        "stop" : 1591086443170,
+        "duration" : 17075
+      }
+    } ]
+  },
+  "22717db7b3c6143612064d34d59e9ef7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22ab7fca5313cfea",
+      "status" : "broken",
+      "statusDetails" : "TypeError: a bytes-like object is required, not 'int'",
+      "time" : {
+        "start" : 1591086377214,
+        "stop" : 1591086393859,
+        "duration" : 16645
       }
     } ]
   },
@@ -85,12 +88,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7343bd44faa5db55",
+      "uid" : "922fb3430633b76",
       "status" : "passed",
       "time" : {
-        "start" : 1591070070512,
-        "stop" : 1591070085358,
-        "duration" : 14846
+        "start" : 1591086450849,
+        "stop" : 1591086463842,
+        "duration" : 12993
       }
     } ]
   }
