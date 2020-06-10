@@ -7,39 +7,39 @@
       "name" : "TypeError: a bytes-like object is required, not 'int'",
       "children" : [ {
         "name" : "test_add_contact[args0]",
-        "uid" : "22ab7fca5313cfea",
+        "uid" : "37e52f7cf13f860c",
         "parentUid" : "5c754b1aa1c4bcea643906ae9c319bb4",
         "status" : "broken",
         "time" : {
-          "start" : 1591086377214,
-          "stop" : 1591086393859,
-          "duration" : 16645
+          "start" : 1591086881511,
+          "stop" : 1591086898373,
+          "duration" : 16862
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ "{'contact_text': 'xiaoming', 'phone': 15549080517}" ]
       }, {
         "name" : "test_add_contact[args1]",
-        "uid" : "5854016776b550f2",
+        "uid" : "9e01d7e20d9f06fa",
         "parentUid" : "5c754b1aa1c4bcea643906ae9c319bb4",
         "status" : "broken",
         "time" : {
-          "start" : 1591086401593,
-          "stop" : 1591086417887,
-          "duration" : 16294
+          "start" : 1591086906040,
+          "stop" : 1591086922046,
+          "duration" : 16006
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ "{'contact_text': 'xiaohong', 'phone': 18071102549}" ]
       }, {
         "name" : "test_add_contact[args2]",
-        "uid" : "94d25536d62d3a0",
+        "uid" : "f47ccc03af51a8bc",
         "parentUid" : "5c754b1aa1c4bcea643906ae9c319bb4",
         "status" : "broken",
         "time" : {
-          "start" : 1591086426095,
-          "stop" : 1591086443170,
-          "duration" : 17075
+          "start" : 1591086929481,
+          "stop" : 1591086945318,
+          "duration" : 15837
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ "{'contact_text': 'zhangsan', 'phone': 13645897995}" ]
       } ],
       "uid" : "5c754b1aa1c4bcea643906ae9c319bb4"

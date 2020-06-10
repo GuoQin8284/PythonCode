@@ -1,0 +1,795 @@
+2020-06-10 11:19:57,190-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 11:19:57,214-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:51628
+2020-06-10 11:20:00,194-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session HTTP/1.1" 200 716
+2020-06-10 11:20:00,194-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:00,194-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/timeouts {"implicit": 10000}
+2020-06-10 11:20:00,194-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/timeouts HTTP/1.1" 200 14
+2020-06-10 11:20:00,194-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:00,194-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/window/maximize {}
+2020-06-10 11:20:02,365-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/window/maximize HTTP/1.1" 200 52
+2020-06-10 11:20:02,365-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:02,365-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 11:20:02,365-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 11:20:03,980-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/url HTTP/1.1" 200 14
+2020-06-10 11:20:03,981-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:03,982-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 11:20:03,983-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 11:20:03,999-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/element HTTP/1.1" 200 88
+2020-06-10 11:20:03,999-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:03,999-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/element/5f53ee98-81dc-4792-8f54-53acd6a4bb2c/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "5f53ee98-81dc-4792-8f54-53acd6a4bb2c"}
+2020-06-10 11:20:04,119-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/element/5f53ee98-81dc-4792-8f54-53acd6a4bb2c/value HTTP/1.1" 200 14
+2020-06-10 11:20:04,120-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:04,120-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 11:20:04,121-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 11:20:04,131-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/element HTTP/1.1" 200 88
+2020-06-10 11:20:04,131-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:04,132-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/element/ac7872c9-f958-40aa-86b4-404e0c05dcc6/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "ac7872c9-f958-40aa-86b4-404e0c05dcc6"}
+2020-06-10 11:20:04,226-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/element/ac7872c9-f958-40aa-86b4-404e0c05dcc6/value HTTP/1.1" 200 14
+2020-06-10 11:20:04,227-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:04,227-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 11:20:04,227-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 11:20:04,263-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/element HTTP/1.1" 200 88
+2020-06-10 11:20:04,263-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:04,263-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/element/cd1c3186-e374-4cdc-92bd-5d633b7f4b01/click {"id": "cd1c3186-e374-4cdc-92bd-5d633b7f4b01"}
+2020-06-10 11:20:04,319-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/element/cd1c3186-e374-4cdc-92bd-5d633b7f4b01/click HTTP/1.1" 200 14
+2020-06-10 11:20:04,319-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:04,319-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 11:20:04,319-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/screenshot {}
+2020-06-10 11:20:04,753-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "GET /session/d87798f0ecf19a26f89a6022d278393d/screenshot HTTP/1.1" 200 45168
+2020-06-10 11:20:04,753-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:04,798-INFO-root [test_login.py test_login-35]:输入的username：15549080517，输入的pwd：Aa1234
+2020-06-10 11:20:04,798-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 11:20:04,798-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 11:20:04,809-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "POST /session/d87798f0ecf19a26f89a6022d278393d/element HTTP/1.1" 200 88
+2020-06-10 11:20:04,809-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:04,809-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d/element/e7ac0ea1-a97a-4cdf-9264-54ce8faf8bc3/text {"id": "e7ac0ea1-a97a-4cdf-9264-54ce8faf8bc3"}
+2020-06-10 11:20:04,820-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "GET /session/d87798f0ecf19a26f89a6022d278393d/element/e7ac0ea1-a97a-4cdf-9264-54ce8faf8bc3/text HTTP/1.1" 200 25
+2020-06-10 11:20:04,820-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:04,820-INFO-root [get_toast.py get_toast_msg-16]:根据toast路径获取登录结果成功, 登录结果为：登录成功!
+2020-06-10 11:20:07,825-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:51628/session/d87798f0ecf19a26f89a6022d278393d {}
+2020-06-10 11:20:07,891-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51628 "DELETE /session/d87798f0ecf19a26f89a6022d278393d HTTP/1.1" 200 14
+2020-06-10 11:20:07,894-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:10,625-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 11:20:10,625-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:51683
+2020-06-10 11:20:13,205-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session HTTP/1.1" 200 716
+2020-06-10 11:20:13,205-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:13,205-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/timeouts {"implicit": 10000}
+2020-06-10 11:20:13,205-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/timeouts HTTP/1.1" 200 14
+2020-06-10 11:20:13,205-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:13,205-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/window/maximize {}
+2020-06-10 11:20:15,415-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/window/maximize HTTP/1.1" 200 52
+2020-06-10 11:20:15,415-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:15,415-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 11:20:15,415-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 11:20:16,863-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/url HTTP/1.1" 200 14
+2020-06-10 11:20:16,864-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:16,864-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 11:20:16,864-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 11:20:16,887-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/element HTTP/1.1" 200 88
+2020-06-10 11:20:16,887-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:16,887-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/element/6edf24cf-9266-4e70-809a-968871c905f1/value {"text": "18627783826", "value": ["1", "8", "6", "2", "7", "7", "8", "3", "8", "2", "6"], "id": "6edf24cf-9266-4e70-809a-968871c905f1"}
+2020-06-10 11:20:17,009-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/element/6edf24cf-9266-4e70-809a-968871c905f1/value HTTP/1.1" 200 14
+2020-06-10 11:20:17,010-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:17,010-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 11:20:17,010-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 11:20:17,020-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/element HTTP/1.1" 200 88
+2020-06-10 11:20:17,020-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:17,021-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/element/d878dfa9-506c-46e4-90bc-33f2bff27667/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "d878dfa9-506c-46e4-90bc-33f2bff27667"}
+2020-06-10 11:20:17,157-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/element/d878dfa9-506c-46e4-90bc-33f2bff27667/value HTTP/1.1" 200 14
+2020-06-10 11:20:17,158-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:17,158-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 11:20:17,158-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 11:20:17,174-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/element HTTP/1.1" 200 88
+2020-06-10 11:20:17,175-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:17,175-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/element/5ba6dc0a-b656-4a14-88b5-476d6cf2e9de/click {"id": "5ba6dc0a-b656-4a14-88b5-476d6cf2e9de"}
+2020-06-10 11:20:17,235-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/element/5ba6dc0a-b656-4a14-88b5-476d6cf2e9de/click HTTP/1.1" 200 14
+2020-06-10 11:20:17,236-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:17,236-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 11:20:17,236-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/screenshot {}
+2020-06-10 11:20:17,615-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "GET /session/9282261ab6c4e342f72b35d9f3b71847/screenshot HTTP/1.1" 200 133208
+2020-06-10 11:20:17,615-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:17,616-INFO-root [test_login.py test_login-35]:输入的username：18627783826，输入的pwd：Aa1234
+2020-06-10 11:20:17,616-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 11:20:17,616-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 11:20:27,675-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/element HTTP/1.1" 404 1067
+2020-06-10 11:20:27,675-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:27,675-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 11:20:27,694-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "POST /session/9282261ab6c4e342f72b35d9f3b71847/element HTTP/1.1" 200 88
+2020-06-10 11:20:27,694-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:27,694-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847/element/0a294282-f23d-4417-bd80-a31f94eb4759/text {"id": "0a294282-f23d-4417-bd80-a31f94eb4759"}
+2020-06-10 11:20:27,720-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "GET /session/9282261ab6c4e342f72b35d9f3b71847/element/0a294282-f23d-4417-bd80-a31f94eb4759/text HTTP/1.1" 200 45
+2020-06-10 11:20:27,720-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:27,720-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：用户不存在，请先去注册
+2020-06-10 11:20:30,735-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:51683/session/9282261ab6c4e342f72b35d9f3b71847 {}
+2020-06-10 11:20:30,825-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51683 "DELETE /session/9282261ab6c4e342f72b35d9f3b71847 HTTP/1.1" 200 14
+2020-06-10 11:20:30,830-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:33,565-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 11:20:33,565-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:51735
+2020-06-10 11:20:36,204-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session HTTP/1.1" 200 718
+2020-06-10 11:20:36,204-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:36,204-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/timeouts {"implicit": 10000}
+2020-06-10 11:20:36,204-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/timeouts HTTP/1.1" 200 14
+2020-06-10 11:20:36,204-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:36,204-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/window/maximize {}
+2020-06-10 11:20:38,395-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/window/maximize HTTP/1.1" 200 52
+2020-06-10 11:20:38,395-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:38,395-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 11:20:38,395-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 11:20:39,636-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/url HTTP/1.1" 200 14
+2020-06-10 11:20:39,636-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:39,636-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 11:20:39,636-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 11:20:39,649-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/element HTTP/1.1" 200 88
+2020-06-10 11:20:39,649-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:39,650-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/element/9ca4fbbd-2eb9-40d4-b69e-ed6193d6279a/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "9ca4fbbd-2eb9-40d4-b69e-ed6193d6279a"}
+2020-06-10 11:20:39,741-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/element/9ca4fbbd-2eb9-40d4-b69e-ed6193d6279a/value HTTP/1.1" 200 14
+2020-06-10 11:20:39,742-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:39,742-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 11:20:39,742-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 11:20:39,752-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/element HTTP/1.1" 200 88
+2020-06-10 11:20:39,752-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:39,752-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/element/7ea9818b-bba1-4a4d-b765-479fab91ac94/value {"text": "Aa12345", "value": ["A", "a", "1", "2", "3", "4", "5"], "id": "7ea9818b-bba1-4a4d-b765-479fab91ac94"}
+2020-06-10 11:20:39,820-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/element/7ea9818b-bba1-4a4d-b765-479fab91ac94/value HTTP/1.1" 200 14
+2020-06-10 11:20:39,821-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:39,821-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 11:20:39,821-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 11:20:39,831-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/element HTTP/1.1" 200 88
+2020-06-10 11:20:39,831-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:39,832-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/element/938164d7-232c-4a57-88bd-d27c8edee8d2/click {"id": "938164d7-232c-4a57-88bd-d27c8edee8d2"}
+2020-06-10 11:20:39,900-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/element/938164d7-232c-4a57-88bd-d27c8edee8d2/click HTTP/1.1" 200 14
+2020-06-10 11:20:39,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:39,900-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 11:20:39,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/screenshot {}
+2020-06-10 11:20:40,259-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "GET /session/53d5a6013b516c6f87a0fe6a2f6975ed/screenshot HTTP/1.1" 200 132136
+2020-06-10 11:20:40,265-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:40,265-INFO-root [test_login.py test_login-35]:输入的username：15549080517，输入的pwd：Aa12345
+2020-06-10 11:20:40,265-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 11:20:40,265-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 11:20:50,285-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/element HTTP/1.1" 404 1067
+2020-06-10 11:20:50,285-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:50,285-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 11:20:50,305-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "POST /session/53d5a6013b516c6f87a0fe6a2f6975ed/element HTTP/1.1" 200 88
+2020-06-10 11:20:50,305-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:50,305-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed/element/f9f33678-415f-44f6-8e58-7d4b7ba1fa88/text {"id": "f9f33678-415f-44f6-8e58-7d4b7ba1fa88"}
+2020-06-10 11:20:50,325-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "GET /session/53d5a6013b516c6f87a0fe6a2f6975ed/element/f9f33678-415f-44f6-8e58-7d4b7ba1fa88/text HTTP/1.1" 200 24
+2020-06-10 11:20:50,325-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:20:50,325-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：密码错误
+2020-06-10 11:20:53,345-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:51735/session/53d5a6013b516c6f87a0fe6a2f6975ed {}
+2020-06-10 11:20:53,609-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51735 "DELETE /session/53d5a6013b516c6f87a0fe6a2f6975ed HTTP/1.1" 200 14
+2020-06-10 11:20:53,609-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:19,554-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 11:24:19,554-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:51908
+2020-06-10 11:24:22,235-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session HTTP/1.1" 200 717
+2020-06-10 11:24:22,235-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:22,235-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/timeouts {"implicit": 10000}
+2020-06-10 11:24:22,235-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/timeouts HTTP/1.1" 200 14
+2020-06-10 11:24:22,235-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:22,235-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/window/maximize {}
+2020-06-10 11:24:24,414-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/window/maximize HTTP/1.1" 200 52
+2020-06-10 11:24:24,414-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:24,414-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 11:24:24,414-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 11:24:26,899-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/url HTTP/1.1" 200 14
+2020-06-10 11:24:26,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:26,900-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 11:24:26,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 11:24:26,924-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/element HTTP/1.1" 200 88
+2020-06-10 11:24:26,925-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:26,925-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/element/d8c6dfb7-4929-445a-85d6-57236dcd4e7e/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "d8c6dfb7-4929-445a-85d6-57236dcd4e7e"}
+2020-06-10 11:24:27,031-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/element/d8c6dfb7-4929-445a-85d6-57236dcd4e7e/value HTTP/1.1" 200 14
+2020-06-10 11:24:27,032-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:27,032-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 11:24:27,032-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 11:24:27,043-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/element HTTP/1.1" 200 88
+2020-06-10 11:24:27,043-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:27,044-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/element/6de29bde-fef3-4f3e-ae51-a5152567b88e/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "6de29bde-fef3-4f3e-ae51-a5152567b88e"}
+2020-06-10 11:24:27,117-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/element/6de29bde-fef3-4f3e-ae51-a5152567b88e/value HTTP/1.1" 200 14
+2020-06-10 11:24:27,117-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:27,118-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 11:24:27,118-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 11:24:27,130-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/element HTTP/1.1" 200 88
+2020-06-10 11:24:27,130-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:27,130-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/element/23e9c5dd-4425-424a-8cd3-7d04bf65e078/click {"id": "23e9c5dd-4425-424a-8cd3-7d04bf65e078"}
+2020-06-10 11:24:27,192-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/element/23e9c5dd-4425-424a-8cd3-7d04bf65e078/click HTTP/1.1" 200 14
+2020-06-10 11:24:27,192-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:27,193-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 11:24:27,193-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/screenshot {}
+2020-06-10 11:24:27,619-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "GET /session/5ad09e90f8a76aa48183f62f1bdad9dc/screenshot HTTP/1.1" 200 45168
+2020-06-10 11:24:27,620-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:27,625-INFO-root [test_login.py test_login-35]:输入的username：15549080517，输入的pwd：Aa1234
+2020-06-10 11:24:27,625-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 11:24:27,625-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 11:24:27,635-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "POST /session/5ad09e90f8a76aa48183f62f1bdad9dc/element HTTP/1.1" 200 88
+2020-06-10 11:24:27,635-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:27,635-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc/element/80ca0fcf-89d8-4233-8183-2e3899ab652e/text {"id": "80ca0fcf-89d8-4233-8183-2e3899ab652e"}
+2020-06-10 11:24:27,657-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "GET /session/5ad09e90f8a76aa48183f62f1bdad9dc/element/80ca0fcf-89d8-4233-8183-2e3899ab652e/text HTTP/1.1" 200 25
+2020-06-10 11:24:27,657-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:27,657-INFO-root [get_toast.py get_toast_msg-16]:根据toast路径获取登录结果成功, 登录结果为：登录成功!
+2020-06-10 11:24:30,675-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:51908/session/5ad09e90f8a76aa48183f62f1bdad9dc {}
+2020-06-10 11:24:30,704-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51908 "DELETE /session/5ad09e90f8a76aa48183f62f1bdad9dc HTTP/1.1" 200 14
+2020-06-10 11:24:30,704-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:34,262-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 11:24:34,262-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:51958
+2020-06-10 11:24:36,934-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session HTTP/1.1" 200 717
+2020-06-10 11:24:36,934-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:36,934-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/timeouts {"implicit": 10000}
+2020-06-10 11:24:36,934-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/timeouts HTTP/1.1" 200 14
+2020-06-10 11:24:36,934-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:36,944-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/window/maximize {}
+2020-06-10 11:24:39,125-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/window/maximize HTTP/1.1" 200 52
+2020-06-10 11:24:39,125-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:39,125-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 11:24:39,125-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 11:24:40,471-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/url HTTP/1.1" 200 14
+2020-06-10 11:24:40,471-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:40,471-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 11:24:40,471-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 11:24:40,486-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/element HTTP/1.1" 200 88
+2020-06-10 11:24:40,486-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:40,486-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/element/e2bbe31c-f653-44bf-8f26-cf9caaa78c15/value {"text": "18627783826", "value": ["1", "8", "6", "2", "7", "7", "8", "3", "8", "2", "6"], "id": "e2bbe31c-f653-44bf-8f26-cf9caaa78c15"}
+2020-06-10 11:24:40,569-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/element/e2bbe31c-f653-44bf-8f26-cf9caaa78c15/value HTTP/1.1" 200 14
+2020-06-10 11:24:40,569-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:40,569-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 11:24:40,569-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 11:24:40,580-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/element HTTP/1.1" 200 88
+2020-06-10 11:24:40,580-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:40,580-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/element/f80cf7cd-55a7-4a87-9cfc-a01ac67faaa3/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "f80cf7cd-55a7-4a87-9cfc-a01ac67faaa3"}
+2020-06-10 11:24:40,642-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/element/f80cf7cd-55a7-4a87-9cfc-a01ac67faaa3/value HTTP/1.1" 200 14
+2020-06-10 11:24:40,643-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:40,643-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 11:24:40,643-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 11:24:40,652-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/element HTTP/1.1" 200 88
+2020-06-10 11:24:40,653-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:40,653-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/element/5af0156c-18f3-4cd9-bc65-2176fa4a1a0a/click {"id": "5af0156c-18f3-4cd9-bc65-2176fa4a1a0a"}
+2020-06-10 11:24:40,701-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/element/5af0156c-18f3-4cd9-bc65-2176fa4a1a0a/click HTTP/1.1" 200 14
+2020-06-10 11:24:40,701-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:40,701-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 11:24:40,702-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/screenshot {}
+2020-06-10 11:24:41,074-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "GET /session/9d66bef82e8020264fe29d3eb6ab3a8f/screenshot HTTP/1.1" 200 133208
+2020-06-10 11:24:41,074-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:41,074-INFO-root [test_login.py test_login-35]:输入的username：18627783826，输入的pwd：Aa1234
+2020-06-10 11:24:41,074-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 11:24:41,074-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 11:24:51,125-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/element HTTP/1.1" 404 1067
+2020-06-10 11:24:51,125-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:51,125-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 11:24:51,134-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "POST /session/9d66bef82e8020264fe29d3eb6ab3a8f/element HTTP/1.1" 200 88
+2020-06-10 11:24:51,134-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:51,134-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f/element/0f1fa2a9-30d8-455f-89ef-af095c703835/text {"id": "0f1fa2a9-30d8-455f-89ef-af095c703835"}
+2020-06-10 11:24:51,154-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "GET /session/9d66bef82e8020264fe29d3eb6ab3a8f/element/0f1fa2a9-30d8-455f-89ef-af095c703835/text HTTP/1.1" 200 45
+2020-06-10 11:24:51,154-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:51,154-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：用户不存在，请先去注册
+2020-06-10 11:24:54,155-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:51958/session/9d66bef82e8020264fe29d3eb6ab3a8f {}
+2020-06-10 11:24:54,195-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:51958 "DELETE /session/9d66bef82e8020264fe29d3eb6ab3a8f HTTP/1.1" 200 14
+2020-06-10 11:24:54,195-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:56,930-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 11:24:56,930-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:52009
+2020-06-10 11:24:59,705-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session HTTP/1.1" 200 718
+2020-06-10 11:24:59,705-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:59,705-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/timeouts {"implicit": 10000}
+2020-06-10 11:24:59,705-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/timeouts HTTP/1.1" 200 14
+2020-06-10 11:24:59,705-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:24:59,705-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/window/maximize {}
+2020-06-10 11:25:01,895-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/window/maximize HTTP/1.1" 200 52
+2020-06-10 11:25:01,895-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:01,895-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 11:25:01,895-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 11:25:03,614-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/url HTTP/1.1" 200 14
+2020-06-10 11:25:03,615-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:03,615-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 11:25:03,616-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 11:25:03,638-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/element HTTP/1.1" 200 88
+2020-06-10 11:25:03,638-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:03,639-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/element/17f95223-495f-46c2-8972-126faa2540f2/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "17f95223-495f-46c2-8972-126faa2540f2"}
+2020-06-10 11:25:03,746-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/element/17f95223-495f-46c2-8972-126faa2540f2/value HTTP/1.1" 200 14
+2020-06-10 11:25:03,746-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:03,746-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 11:25:03,746-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 11:25:03,758-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/element HTTP/1.1" 200 88
+2020-06-10 11:25:03,758-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:03,758-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/element/bbe5285b-223e-4d4f-bb07-f2e32e4413f3/value {"text": "Aa12345", "value": ["A", "a", "1", "2", "3", "4", "5"], "id": "bbe5285b-223e-4d4f-bb07-f2e32e4413f3"}
+2020-06-10 11:25:03,842-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/element/bbe5285b-223e-4d4f-bb07-f2e32e4413f3/value HTTP/1.1" 200 14
+2020-06-10 11:25:03,842-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:03,842-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 11:25:03,842-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 11:25:03,853-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/element HTTP/1.1" 200 88
+2020-06-10 11:25:03,854-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:03,854-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/element/42948a95-8540-4b31-8680-45e92fefd9af/click {"id": "42948a95-8540-4b31-8680-45e92fefd9af"}
+2020-06-10 11:25:03,926-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/element/42948a95-8540-4b31-8680-45e92fefd9af/click HTTP/1.1" 200 14
+2020-06-10 11:25:03,926-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:03,926-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 11:25:03,927-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/screenshot {}
+2020-06-10 11:25:04,275-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "GET /session/77974f48f6da53e3c094f487ca606624/screenshot HTTP/1.1" 200 132136
+2020-06-10 11:25:04,285-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:04,285-INFO-root [test_login.py test_login-35]:输入的username：15549080517，输入的pwd：Aa12345
+2020-06-10 11:25:04,285-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 11:25:04,285-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 11:25:14,294-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/element HTTP/1.1" 404 1067
+2020-06-10 11:25:14,294-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:14,294-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 11:25:14,315-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "POST /session/77974f48f6da53e3c094f487ca606624/element HTTP/1.1" 200 88
+2020-06-10 11:25:14,315-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:14,315-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624/element/2ce3edcd-e296-4161-9698-f8d2622744d8/text {"id": "2ce3edcd-e296-4161-9698-f8d2622744d8"}
+2020-06-10 11:25:14,335-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "GET /session/77974f48f6da53e3c094f487ca606624/element/2ce3edcd-e296-4161-9698-f8d2622744d8/text HTTP/1.1" 200 24
+2020-06-10 11:25:14,335-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:25:14,335-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：密码错误
+2020-06-10 11:25:17,355-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:52009/session/77974f48f6da53e3c094f487ca606624 {}
+2020-06-10 11:25:17,405-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52009 "DELETE /session/77974f48f6da53e3c094f487ca606624 HTTP/1.1" 200 14
+2020-06-10 11:25:17,405-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:13,559-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 11:44:13,559-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:52874
+2020-06-10 11:44:16,184-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session HTTP/1.1" 200 717
+2020-06-10 11:44:16,184-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:16,184-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/timeouts {"implicit": 10000}
+2020-06-10 11:44:16,184-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/timeouts HTTP/1.1" 200 14
+2020-06-10 11:44:16,184-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:16,184-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/window/maximize {}
+2020-06-10 11:44:18,349-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/window/maximize HTTP/1.1" 200 52
+2020-06-10 11:44:18,349-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:18,349-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 11:44:18,349-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 11:44:19,844-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/url HTTP/1.1" 200 14
+2020-06-10 11:44:19,845-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:19,845-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 11:44:19,845-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 11:44:19,864-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/element HTTP/1.1" 200 88
+2020-06-10 11:44:19,864-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:19,864-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/element/7f585748-845c-4503-86de-d10c321e2512/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "7f585748-845c-4503-86de-d10c321e2512"}
+2020-06-10 11:44:19,962-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/element/7f585748-845c-4503-86de-d10c321e2512/value HTTP/1.1" 200 14
+2020-06-10 11:44:19,962-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:19,963-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 11:44:19,963-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 11:44:19,972-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/element HTTP/1.1" 200 88
+2020-06-10 11:44:19,973-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:19,973-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/element/aae4861e-8372-4dea-bcb7-e3ce5d3d71fd/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "aae4861e-8372-4dea-bcb7-e3ce5d3d71fd"}
+2020-06-10 11:44:20,039-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/element/aae4861e-8372-4dea-bcb7-e3ce5d3d71fd/value HTTP/1.1" 200 14
+2020-06-10 11:44:20,039-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:20,040-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 11:44:20,040-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 11:44:20,051-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/element HTTP/1.1" 200 88
+2020-06-10 11:44:20,051-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:20,051-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/element/78531cf0-f82e-4af3-9c11-e9e6b94a0b09/click {"id": "78531cf0-f82e-4af3-9c11-e9e6b94a0b09"}
+2020-06-10 11:44:20,111-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/element/78531cf0-f82e-4af3-9c11-e9e6b94a0b09/click HTTP/1.1" 200 14
+2020-06-10 11:44:20,111-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:20,111-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 11:44:20,111-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/screenshot {}
+2020-06-10 11:44:20,535-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "GET /session/328c7a4db4785ee156c40d7b2669add8/screenshot HTTP/1.1" 200 165936
+2020-06-10 11:44:20,535-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:20,543-INFO-root [test_login.py test_login-37]:输入的username：15549080517，输入的pwd：Aa1234
+2020-06-10 11:44:20,543-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 11:44:20,543-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 11:44:20,552-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "POST /session/328c7a4db4785ee156c40d7b2669add8/element HTTP/1.1" 200 88
+2020-06-10 11:44:20,553-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:20,553-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8/element/58d2ef37-ab81-4cf3-9c7f-0757030fdb0d/text {"id": "58d2ef37-ab81-4cf3-9c7f-0757030fdb0d"}
+2020-06-10 11:44:20,564-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "GET /session/328c7a4db4785ee156c40d7b2669add8/element/58d2ef37-ab81-4cf3-9c7f-0757030fdb0d/text HTTP/1.1" 200 25
+2020-06-10 11:44:20,565-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:20,565-INFO-root [get_toast.py get_toast_msg-16]:根据toast路径获取登录结果成功, 登录结果为：登录成功!
+2020-06-10 11:44:23,570-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:52874/session/328c7a4db4785ee156c40d7b2669add8 {}
+2020-06-10 11:44:23,630-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52874 "DELETE /session/328c7a4db4785ee156c40d7b2669add8 HTTP/1.1" 200 14
+2020-06-10 11:44:23,630-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:26,530-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 11:44:26,530-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:52924
+2020-06-10 11:44:29,335-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session HTTP/1.1" 200 716
+2020-06-10 11:44:29,335-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:29,335-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/timeouts {"implicit": 10000}
+2020-06-10 11:44:29,335-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/timeouts HTTP/1.1" 200 14
+2020-06-10 11:44:29,335-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:29,339-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/window/maximize {}
+2020-06-10 11:44:31,499-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/window/maximize HTTP/1.1" 200 52
+2020-06-10 11:44:31,499-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:31,499-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 11:44:31,499-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 11:44:32,869-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/url HTTP/1.1" 200 14
+2020-06-10 11:44:32,870-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:32,870-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 11:44:32,870-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 11:44:32,881-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/element HTTP/1.1" 200 88
+2020-06-10 11:44:32,881-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:32,881-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/element/46d5bfca-d0f8-48f5-9b28-5ebe36bbad47/value {"text": "18627783826", "value": ["1", "8", "6", "2", "7", "7", "8", "3", "8", "2", "6"], "id": "46d5bfca-d0f8-48f5-9b28-5ebe36bbad47"}
+2020-06-10 11:44:32,987-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/element/46d5bfca-d0f8-48f5-9b28-5ebe36bbad47/value HTTP/1.1" 200 14
+2020-06-10 11:44:32,987-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:32,987-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 11:44:32,987-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 11:44:32,998-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/element HTTP/1.1" 200 88
+2020-06-10 11:44:32,999-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:32,999-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/element/23726620-d743-4829-9cb8-09fbca993340/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "23726620-d743-4829-9cb8-09fbca993340"}
+2020-06-10 11:44:33,102-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/element/23726620-d743-4829-9cb8-09fbca993340/value HTTP/1.1" 200 14
+2020-06-10 11:44:33,102-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:33,102-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 11:44:33,102-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 11:44:33,114-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/element HTTP/1.1" 200 88
+2020-06-10 11:44:33,114-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:33,114-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/element/f82d215a-9427-4708-b179-2d15e9bf57d7/click {"id": "f82d215a-9427-4708-b179-2d15e9bf57d7"}
+2020-06-10 11:44:33,174-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/element/f82d215a-9427-4708-b179-2d15e9bf57d7/click HTTP/1.1" 200 14
+2020-06-10 11:44:33,174-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:33,175-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 11:44:33,175-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/screenshot {}
+2020-06-10 11:44:33,549-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "GET /session/61bc6c8990fb2e9187091c5e44ae983a/screenshot HTTP/1.1" 200 133208
+2020-06-10 11:44:33,549-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:33,549-INFO-root [test_login.py test_login-37]:输入的username：18627783826，输入的pwd：Aa1234
+2020-06-10 11:44:33,549-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 11:44:33,549-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 11:44:43,619-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/element HTTP/1.1" 404 1067
+2020-06-10 11:44:43,619-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:43,619-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 11:44:43,639-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "POST /session/61bc6c8990fb2e9187091c5e44ae983a/element HTTP/1.1" 200 88
+2020-06-10 11:44:43,639-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:43,639-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a/element/c5b5bfaf-6b68-4fad-a01a-3f38570593b2/text {"id": "c5b5bfaf-6b68-4fad-a01a-3f38570593b2"}
+2020-06-10 11:44:43,662-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "GET /session/61bc6c8990fb2e9187091c5e44ae983a/element/c5b5bfaf-6b68-4fad-a01a-3f38570593b2/text HTTP/1.1" 200 45
+2020-06-10 11:44:43,662-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:43,662-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：用户不存在，请先去注册
+2020-06-10 11:44:46,680-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:52924/session/61bc6c8990fb2e9187091c5e44ae983a {}
+2020-06-10 11:44:46,749-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52924 "DELETE /session/61bc6c8990fb2e9187091c5e44ae983a HTTP/1.1" 200 14
+2020-06-10 11:44:46,749-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:49,480-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 11:44:49,480-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:52977
+2020-06-10 11:44:52,240-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session HTTP/1.1" 200 717
+2020-06-10 11:44:52,240-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:52,240-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/timeouts {"implicit": 10000}
+2020-06-10 11:44:52,240-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/timeouts HTTP/1.1" 200 14
+2020-06-10 11:44:52,240-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:52,240-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/window/maximize {}
+2020-06-10 11:44:54,447-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/window/maximize HTTP/1.1" 200 52
+2020-06-10 11:44:54,447-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:54,447-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 11:44:54,447-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 11:44:56,210-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/url HTTP/1.1" 200 14
+2020-06-10 11:44:56,211-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:56,211-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 11:44:56,211-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 11:44:56,223-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/element HTTP/1.1" 200 88
+2020-06-10 11:44:56,223-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:56,223-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/element/d5a9fdcd-cb38-409d-af65-0eb3d9b611d8/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "d5a9fdcd-cb38-409d-af65-0eb3d9b611d8"}
+2020-06-10 11:44:56,330-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/element/d5a9fdcd-cb38-409d-af65-0eb3d9b611d8/value HTTP/1.1" 200 14
+2020-06-10 11:44:56,330-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:56,330-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 11:44:56,330-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 11:44:56,340-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/element HTTP/1.1" 200 88
+2020-06-10 11:44:56,340-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:56,340-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/element/1b4a5612-c85e-4875-8dce-de1f396c6bbb/value {"text": "Aa12345", "value": ["A", "a", "1", "2", "3", "4", "5"], "id": "1b4a5612-c85e-4875-8dce-de1f396c6bbb"}
+2020-06-10 11:44:56,452-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/element/1b4a5612-c85e-4875-8dce-de1f396c6bbb/value HTTP/1.1" 200 14
+2020-06-10 11:44:56,452-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:56,452-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 11:44:56,452-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 11:44:56,468-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/element HTTP/1.1" 200 88
+2020-06-10 11:44:56,468-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:56,468-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/element/2ddba57d-df90-42c3-b428-d9e642087063/click {"id": "2ddba57d-df90-42c3-b428-d9e642087063"}
+2020-06-10 11:44:56,529-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/element/2ddba57d-df90-42c3-b428-d9e642087063/click HTTP/1.1" 200 14
+2020-06-10 11:44:56,529-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:56,529-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 11:44:56,529-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/screenshot {}
+2020-06-10 11:44:56,889-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "GET /session/7190513d592401e794d9074d08c842d6/screenshot HTTP/1.1" 200 132136
+2020-06-10 11:44:56,889-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:44:56,889-INFO-root [test_login.py test_login-37]:输入的username：15549080517，输入的pwd：Aa12345
+2020-06-10 11:44:56,889-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 11:44:56,889-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 11:45:06,929-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/element HTTP/1.1" 404 1067
+2020-06-10 11:45:06,929-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:45:06,929-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 11:45:06,945-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "POST /session/7190513d592401e794d9074d08c842d6/element HTTP/1.1" 200 88
+2020-06-10 11:45:06,950-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:45:06,950-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6/element/c4865894-20f1-402d-b734-144846d26fdb/text {"id": "c4865894-20f1-402d-b734-144846d26fdb"}
+2020-06-10 11:45:06,969-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "GET /session/7190513d592401e794d9074d08c842d6/element/c4865894-20f1-402d-b734-144846d26fdb/text HTTP/1.1" 200 24
+2020-06-10 11:45:06,969-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 11:45:06,969-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：密码错误
+2020-06-10 11:45:09,970-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:52977/session/7190513d592401e794d9074d08c842d6 {}
+2020-06-10 11:45:10,020-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:52977 "DELETE /session/7190513d592401e794d9074d08c842d6 HTTP/1.1" 200 14
+2020-06-10 11:45:10,020-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:17,260-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 12:04:17,260-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:53862
+2020-06-10 12:04:20,010-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session HTTP/1.1" 200 716
+2020-06-10 12:04:20,010-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:20,010-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/timeouts {"implicit": 10000}
+2020-06-10 12:04:20,010-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/timeouts HTTP/1.1" 200 14
+2020-06-10 12:04:20,010-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:20,010-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/window/maximize {}
+2020-06-10 12:04:22,224-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/window/maximize HTTP/1.1" 200 52
+2020-06-10 12:04:22,224-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:22,224-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 12:04:22,224-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 12:04:24,501-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/url HTTP/1.1" 200 14
+2020-06-10 12:04:24,501-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:24,501-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 12:04:24,501-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 12:04:24,514-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/element HTTP/1.1" 200 88
+2020-06-10 12:04:24,514-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:24,515-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/element/fa4681d8-a116-490b-82d0-89b0e550794f/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "fa4681d8-a116-490b-82d0-89b0e550794f"}
+2020-06-10 12:04:24,614-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/element/fa4681d8-a116-490b-82d0-89b0e550794f/value HTTP/1.1" 200 14
+2020-06-10 12:04:24,614-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:24,614-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 12:04:24,614-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 12:04:24,625-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/element HTTP/1.1" 200 88
+2020-06-10 12:04:24,625-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:24,625-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/element/3fc6a35a-ca23-426d-9756-f2fc74f7b1d7/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "3fc6a35a-ca23-426d-9756-f2fc74f7b1d7"}
+2020-06-10 12:04:24,692-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/element/3fc6a35a-ca23-426d-9756-f2fc74f7b1d7/value HTTP/1.1" 200 14
+2020-06-10 12:04:24,693-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:24,693-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 12:04:24,693-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 12:04:24,704-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/element HTTP/1.1" 200 88
+2020-06-10 12:04:24,705-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:24,705-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/element/37899dde-2187-49cf-8ae0-694f2dabd0ce/click {"id": "37899dde-2187-49cf-8ae0-694f2dabd0ce"}
+2020-06-10 12:04:24,763-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/element/37899dde-2187-49cf-8ae0-694f2dabd0ce/click HTTP/1.1" 200 14
+2020-06-10 12:04:24,763-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:24,764-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 12:04:24,764-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/screenshot {}
+2020-06-10 12:04:25,225-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "GET /session/4231390e8c8b7c55fb4877a87cbf8c71/screenshot HTTP/1.1" 200 45132
+2020-06-10 12:04:25,226-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:25,231-INFO-root [test_login.py test_login-37]:输入的username：15549080517，输入的pwd：Aa1234
+2020-06-10 12:04:25,232-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 12:04:25,232-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 12:04:25,243-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "POST /session/4231390e8c8b7c55fb4877a87cbf8c71/element HTTP/1.1" 200 88
+2020-06-10 12:04:25,244-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:25,244-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71/element/5f92a22c-fb72-4c2e-9050-4453039dbab0/text {"id": "5f92a22c-fb72-4c2e-9050-4453039dbab0"}
+2020-06-10 12:04:25,256-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "GET /session/4231390e8c8b7c55fb4877a87cbf8c71/element/5f92a22c-fb72-4c2e-9050-4453039dbab0/text HTTP/1.1" 200 25
+2020-06-10 12:04:25,256-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:25,256-INFO-root [get_toast.py get_toast_msg-16]:根据toast路径获取登录结果成功, 登录结果为：登录成功!
+2020-06-10 12:04:28,260-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:53862/session/4231390e8c8b7c55fb4877a87cbf8c71 {}
+2020-06-10 12:04:28,310-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53862 "DELETE /session/4231390e8c8b7c55fb4877a87cbf8c71 HTTP/1.1" 200 14
+2020-06-10 12:04:28,310-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:31,010-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 12:04:31,010-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:53913
+2020-06-10 12:04:33,710-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session HTTP/1.1" 200 718
+2020-06-10 12:04:33,710-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:33,715-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/timeouts {"implicit": 10000}
+2020-06-10 12:04:33,715-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/timeouts HTTP/1.1" 200 14
+2020-06-10 12:04:33,715-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:33,715-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/window/maximize {}
+2020-06-10 12:04:35,900-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/window/maximize HTTP/1.1" 200 52
+2020-06-10 12:04:35,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:35,900-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 12:04:35,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 12:04:38,550-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/url HTTP/1.1" 200 14
+2020-06-10 12:04:38,550-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:38,550-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 12:04:38,551-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 12:04:38,563-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/element HTTP/1.1" 200 88
+2020-06-10 12:04:38,563-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:38,563-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/element/33cd8ad7-ecf9-402e-9c8d-136a76356a73/value {"text": "18627783826", "value": ["1", "8", "6", "2", "7", "7", "8", "3", "8", "2", "6"], "id": "33cd8ad7-ecf9-402e-9c8d-136a76356a73"}
+2020-06-10 12:04:38,655-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/element/33cd8ad7-ecf9-402e-9c8d-136a76356a73/value HTTP/1.1" 200 14
+2020-06-10 12:04:38,655-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:38,655-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 12:04:38,655-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 12:04:38,667-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/element HTTP/1.1" 200 88
+2020-06-10 12:04:38,667-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:38,667-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/element/46e324d0-a5f8-4012-8770-388a157f03a6/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "46e324d0-a5f8-4012-8770-388a157f03a6"}
+2020-06-10 12:04:38,729-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/element/46e324d0-a5f8-4012-8770-388a157f03a6/value HTTP/1.1" 200 14
+2020-06-10 12:04:38,730-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:38,730-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 12:04:38,730-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 12:04:38,740-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/element HTTP/1.1" 200 88
+2020-06-10 12:04:38,740-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:38,740-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/element/c9dbb8a1-bb6f-4534-9d25-b9ad0dcefea3/click {"id": "c9dbb8a1-bb6f-4534-9d25-b9ad0dcefea3"}
+2020-06-10 12:04:38,789-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/element/c9dbb8a1-bb6f-4534-9d25-b9ad0dcefea3/click HTTP/1.1" 200 14
+2020-06-10 12:04:38,790-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:38,790-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 12:04:38,790-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/screenshot {}
+2020-06-10 12:04:39,159-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "GET /session/862e7decbfd50562f0fc8116951a75c5/screenshot HTTP/1.1" 200 133208
+2020-06-10 12:04:39,159-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:39,159-INFO-root [test_login.py test_login-37]:输入的username：18627783826，输入的pwd：Aa1234
+2020-06-10 12:04:39,159-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 12:04:39,159-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 12:04:49,170-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/element HTTP/1.1" 404 1067
+2020-06-10 12:04:49,170-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:49,170-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 12:04:49,190-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "POST /session/862e7decbfd50562f0fc8116951a75c5/element HTTP/1.1" 200 88
+2020-06-10 12:04:49,190-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:49,190-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5/element/eaae4783-ad50-472e-8ac6-c4771dca6eb6/text {"id": "eaae4783-ad50-472e-8ac6-c4771dca6eb6"}
+2020-06-10 12:04:49,200-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "GET /session/862e7decbfd50562f0fc8116951a75c5/element/eaae4783-ad50-472e-8ac6-c4771dca6eb6/text HTTP/1.1" 200 45
+2020-06-10 12:04:49,200-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:49,200-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：用户不存在，请先去注册
+2020-06-10 12:04:52,200-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:53913/session/862e7decbfd50562f0fc8116951a75c5 {}
+2020-06-10 12:04:52,250-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53913 "DELETE /session/862e7decbfd50562f0fc8116951a75c5 HTTP/1.1" 200 14
+2020-06-10 12:04:52,250-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:55,020-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 12:04:55,020-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:53968
+2020-06-10 12:04:57,749-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session HTTP/1.1" 200 716
+2020-06-10 12:04:57,749-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:57,749-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/timeouts {"implicit": 10000}
+2020-06-10 12:04:57,749-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/timeouts HTTP/1.1" 200 14
+2020-06-10 12:04:57,749-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:57,749-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/window/maximize {}
+2020-06-10 12:04:59,900-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/window/maximize HTTP/1.1" 200 52
+2020-06-10 12:04:59,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:04:59,900-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 12:04:59,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 12:05:01,676-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/url HTTP/1.1" 200 14
+2020-06-10 12:05:01,677-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:01,677-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 12:05:01,678-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 12:05:01,700-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/element HTTP/1.1" 200 88
+2020-06-10 12:05:01,700-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:01,700-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/element/2202871a-22d9-4346-a2bc-662fce5418c9/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "2202871a-22d9-4346-a2bc-662fce5418c9"}
+2020-06-10 12:05:01,800-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/element/2202871a-22d9-4346-a2bc-662fce5418c9/value HTTP/1.1" 200 14
+2020-06-10 12:05:01,801-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:01,801-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 12:05:01,801-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 12:05:01,812-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/element HTTP/1.1" 200 88
+2020-06-10 12:05:01,813-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:01,813-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/element/4e181d5e-f4f0-4e10-a81e-67d85e0c213f/value {"text": "Aa12345", "value": ["A", "a", "1", "2", "3", "4", "5"], "id": "4e181d5e-f4f0-4e10-a81e-67d85e0c213f"}
+2020-06-10 12:05:01,888-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/element/4e181d5e-f4f0-4e10-a81e-67d85e0c213f/value HTTP/1.1" 200 14
+2020-06-10 12:05:01,888-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:01,888-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 12:05:01,889-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 12:05:01,899-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/element HTTP/1.1" 200 88
+2020-06-10 12:05:01,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:01,900-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/element/12befa7b-5eeb-42a1-9efa-9b2e6e37ace4/click {"id": "12befa7b-5eeb-42a1-9efa-9b2e6e37ace4"}
+2020-06-10 12:05:01,957-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/element/12befa7b-5eeb-42a1-9efa-9b2e6e37ace4/click HTTP/1.1" 200 14
+2020-06-10 12:05:01,958-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:01,958-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 12:05:01,958-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/screenshot {}
+2020-06-10 12:05:02,390-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "GET /session/328d583ba8d114c3999f756805a47747/screenshot HTTP/1.1" 200 132136
+2020-06-10 12:05:02,390-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:02,390-INFO-root [test_login.py test_login-37]:输入的username：15549080517，输入的pwd：Aa12345
+2020-06-10 12:05:02,390-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 12:05:02,390-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 12:05:12,420-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/element HTTP/1.1" 404 1067
+2020-06-10 12:05:12,420-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:12,420-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 12:05:12,440-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "POST /session/328d583ba8d114c3999f756805a47747/element HTTP/1.1" 200 88
+2020-06-10 12:05:12,440-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:12,440-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747/element/4639efee-00de-4caf-96b0-45dee7d03ca5/text {"id": "4639efee-00de-4caf-96b0-45dee7d03ca5"}
+2020-06-10 12:05:12,460-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "GET /session/328d583ba8d114c3999f756805a47747/element/4639efee-00de-4caf-96b0-45dee7d03ca5/text HTTP/1.1" 200 24
+2020-06-10 12:05:12,460-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:05:12,460-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：密码错误
+2020-06-10 12:05:15,480-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:53968/session/328d583ba8d114c3999f756805a47747 {}
+2020-06-10 12:05:15,515-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:53968 "DELETE /session/328d583ba8d114c3999f756805a47747 HTTP/1.1" 200 14
+2020-06-10 12:05:15,520-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:11,130-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 12:07:11,130-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:54087
+2020-06-10 12:07:13,850-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session HTTP/1.1" 200 717
+2020-06-10 12:07:13,850-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:13,850-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/timeouts {"implicit": 10000}
+2020-06-10 12:07:13,850-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/timeouts HTTP/1.1" 200 14
+2020-06-10 12:07:13,850-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:13,850-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/window/maximize {}
+2020-06-10 12:07:16,045-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/window/maximize HTTP/1.1" 200 52
+2020-06-10 12:07:16,045-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:16,045-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 12:07:16,045-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 12:07:17,421-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/url HTTP/1.1" 200 14
+2020-06-10 12:07:17,422-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:17,423-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 12:07:17,423-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 12:07:17,436-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/element HTTP/1.1" 200 88
+2020-06-10 12:07:17,436-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:17,437-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/element/3d846168-f590-496b-9d7e-91ab30d5023a/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "3d846168-f590-496b-9d7e-91ab30d5023a"}
+2020-06-10 12:07:17,565-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/element/3d846168-f590-496b-9d7e-91ab30d5023a/value HTTP/1.1" 200 14
+2020-06-10 12:07:17,566-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:17,567-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 12:07:17,567-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 12:07:17,579-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/element HTTP/1.1" 200 88
+2020-06-10 12:07:17,580-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:17,580-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/element/71fa0e86-7899-4094-825b-ff2a00322229/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "71fa0e86-7899-4094-825b-ff2a00322229"}
+2020-06-10 12:07:17,701-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/element/71fa0e86-7899-4094-825b-ff2a00322229/value HTTP/1.1" 200 14
+2020-06-10 12:07:17,702-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:17,703-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 12:07:17,703-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 12:07:17,715-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/element HTTP/1.1" 200 88
+2020-06-10 12:07:17,716-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:17,716-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/element/9ad196dc-0401-428d-80c7-da650bb569e3/click {"id": "9ad196dc-0401-428d-80c7-da650bb569e3"}
+2020-06-10 12:07:17,759-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/element/9ad196dc-0401-428d-80c7-da650bb569e3/click HTTP/1.1" 200 14
+2020-06-10 12:07:17,759-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:17,760-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 12:07:17,763-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/screenshot {}
+2020-06-10 12:07:18,160-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "GET /session/87aae8487d6d2d6c404df65ceb4e096c/screenshot HTTP/1.1" 200 45132
+2020-06-10 12:07:18,160-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:18,169-INFO-root [test_login.py test_login-37]:输入的username：15549080517，输入的pwd：Aa1234
+2020-06-10 12:07:18,169-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 12:07:18,169-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 12:07:18,179-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "POST /session/87aae8487d6d2d6c404df65ceb4e096c/element HTTP/1.1" 200 88
+2020-06-10 12:07:18,179-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:18,179-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c/element/c4b831bc-06d5-418b-ab70-997f20125c6e/text {"id": "c4b831bc-06d5-418b-ab70-997f20125c6e"}
+2020-06-10 12:07:18,205-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "GET /session/87aae8487d6d2d6c404df65ceb4e096c/element/c4b831bc-06d5-418b-ab70-997f20125c6e/text HTTP/1.1" 200 25
+2020-06-10 12:07:18,205-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:07:18,205-INFO-root [get_toast.py get_toast_msg-16]:根据toast路径获取登录结果成功, 登录结果为：登录成功!
+2020-06-10 12:07:21,210-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:54087/session/87aae8487d6d2d6c404df65ceb4e096c {}
+2020-06-10 12:07:57,330-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54087 "DELETE /session/87aae8487d6d2d6c404df65ceb4e096c HTTP/1.1" 200 14
+2020-06-10 12:07:57,334-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:00,090-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 12:08:00,090-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:54163
+2020-06-10 12:08:02,720-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session HTTP/1.1" 200 717
+2020-06-10 12:08:02,720-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:02,730-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/timeouts {"implicit": 10000}
+2020-06-10 12:08:02,730-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/timeouts HTTP/1.1" 200 14
+2020-06-10 12:08:02,730-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:02,730-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/window/maximize {}
+2020-06-10 12:08:04,897-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/window/maximize HTTP/1.1" 200 52
+2020-06-10 12:08:04,897-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:04,897-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 12:08:04,897-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 12:08:06,584-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/url HTTP/1.1" 200 14
+2020-06-10 12:08:06,585-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:06,586-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 12:08:06,586-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 12:08:06,599-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/element HTTP/1.1" 200 88
+2020-06-10 12:08:06,599-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:06,600-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/element/c73c818a-b0f5-43e0-9a6c-6f3b55d9f7bc/value {"text": "18627783826", "value": ["1", "8", "6", "2", "7", "7", "8", "3", "8", "2", "6"], "id": "c73c818a-b0f5-43e0-9a6c-6f3b55d9f7bc"}
+2020-06-10 12:08:06,718-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/element/c73c818a-b0f5-43e0-9a6c-6f3b55d9f7bc/value HTTP/1.1" 200 14
+2020-06-10 12:08:06,718-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:06,719-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 12:08:06,719-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 12:08:06,730-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/element HTTP/1.1" 200 88
+2020-06-10 12:08:06,731-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:06,731-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/element/6e16617b-92b9-4cc2-b635-4697e513aeeb/value {"text": "Aa1234", "value": ["A", "a", "1", "2", "3", "4"], "id": "6e16617b-92b9-4cc2-b635-4697e513aeeb"}
+2020-06-10 12:08:06,833-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/element/6e16617b-92b9-4cc2-b635-4697e513aeeb/value HTTP/1.1" 200 14
+2020-06-10 12:08:06,834-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:06,835-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 12:08:06,835-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 12:08:06,846-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/element HTTP/1.1" 200 88
+2020-06-10 12:08:06,847-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:06,847-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/element/40b9980d-32c7-4e2f-8008-4c9488a0eab8/click {"id": "40b9980d-32c7-4e2f-8008-4c9488a0eab8"}
+2020-06-10 12:08:06,892-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/element/40b9980d-32c7-4e2f-8008-4c9488a0eab8/click HTTP/1.1" 200 14
+2020-06-10 12:08:06,893-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:06,894-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 12:08:06,896-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/screenshot {}
+2020-06-10 12:08:07,260-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "GET /session/5224ac8d99a557fafdf0799e71f3d94b/screenshot HTTP/1.1" 200 133208
+2020-06-10 12:08:07,269-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:07,269-INFO-root [test_login.py test_login-37]:输入的username：18627783826，输入的pwd：Aa1234
+2020-06-10 12:08:07,269-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 12:08:07,274-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 12:08:17,300-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/element HTTP/1.1" 404 1067
+2020-06-10 12:08:17,300-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:17,300-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 12:08:17,320-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "POST /session/5224ac8d99a557fafdf0799e71f3d94b/element HTTP/1.1" 200 88
+2020-06-10 12:08:17,320-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:17,320-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b/element/45382360-9037-4f04-8f80-08926f205d73/text {"id": "45382360-9037-4f04-8f80-08926f205d73"}
+2020-06-10 12:08:17,340-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "GET /session/5224ac8d99a557fafdf0799e71f3d94b/element/45382360-9037-4f04-8f80-08926f205d73/text HTTP/1.1" 200 45
+2020-06-10 12:08:17,340-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:17,340-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：用户不存在，请先去注册
+2020-06-10 12:08:20,360-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:54163/session/5224ac8d99a557fafdf0799e71f3d94b {}
+2020-06-10 12:08:20,434-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54163 "DELETE /session/5224ac8d99a557fafdf0799e71f3d94b HTTP/1.1" 200 14
+2020-06-10 12:08:20,434-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:23,190-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-10 12:08:23,190-DEBUG-urllib3.connectionpool [connectionpool.py _new_conn-230]:Starting new HTTP connection (1): 127.0.0.1:54217
+2020-06-10 12:08:25,880-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session HTTP/1.1" 200 717
+2020-06-10 12:08:25,880-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:25,880-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/timeouts {"implicit": 10000}
+2020-06-10 12:08:25,880-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/timeouts HTTP/1.1" 200 14
+2020-06-10 12:08:25,890-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:25,890-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/window/maximize {}
+2020-06-10 12:08:28,070-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/window/maximize HTTP/1.1" 200 52
+2020-06-10 12:08:28,070-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:28,070-INFO-root [page_login.py __init__-10]:传入driver对象到BaseAction类
+2020-06-10 12:08:28,070-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/url {"url": "https://author.osid.org.cn/"}
+2020-06-10 12:08:29,367-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/url HTTP/1.1" 200 14
+2020-06-10 12:08:29,368-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:29,369-INFO-root [page_login.py login-19]:登录业务进行中
+2020-06-10 12:08:29,370-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/element {"using": "xpath", "value": "//*[@name=\"username\"]"}
+2020-06-10 12:08:29,384-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/element HTTP/1.1" 200 88
+2020-06-10 12:08:29,384-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:29,384-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/element/1c9a6f87-2239-4ca0-93b6-82733ba925ca/value {"text": "15549080517", "value": ["1", "5", "5", "4", "9", "0", "8", "0", "5", "1", "7"], "id": "1c9a6f87-2239-4ca0-93b6-82733ba925ca"}
+2020-06-10 12:08:29,491-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/element/1c9a6f87-2239-4ca0-93b6-82733ba925ca/value HTTP/1.1" 200 14
+2020-06-10 12:08:29,492-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:29,493-INFO-root [page_login.py login-21]:输入用户名成功
+2020-06-10 12:08:29,495-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/element {"using": "xpath", "value": "//*[@name=\"password\"]"}
+2020-06-10 12:08:29,504-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/element HTTP/1.1" 200 88
+2020-06-10 12:08:29,505-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:29,505-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/element/ef947690-bf93-4d78-ac6f-a5d5b72e9ecd/value {"text": "Aa12345", "value": ["A", "a", "1", "2", "3", "4", "5"], "id": "ef947690-bf93-4d78-ac6f-a5d5b72e9ecd"}
+2020-06-10 12:08:29,613-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/element/ef947690-bf93-4d78-ac6f-a5d5b72e9ecd/value HTTP/1.1" 200 14
+2020-06-10 12:08:29,614-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:29,615-INFO-root [page_login.py login-23]:输入密码成功
+2020-06-10 12:08:29,615-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/element {"using": "xpath", "value": "//button[@class=\"btn btn-primary login-btn w100per\"]"}
+2020-06-10 12:08:29,625-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/element HTTP/1.1" 200 88
+2020-06-10 12:08:29,626-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:29,626-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/element/b02e7c89-f545-412f-8baf-9e6e14e5d628/click {"id": "b02e7c89-f545-412f-8baf-9e6e14e5d628"}
+2020-06-10 12:08:29,676-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/element/b02e7c89-f545-412f-8baf-9e6e14e5d628/click HTTP/1.1" 200 14
+2020-06-10 12:08:29,676-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:29,677-INFO-root [page_login.py login-25]:点击登录成功
+2020-06-10 12:08:29,678-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/screenshot {}
+2020-06-10 12:08:30,049-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "GET /session/1863a2019c3057a339b37e1cd6a54cc8/screenshot HTTP/1.1" 200 132136
+2020-06-10 12:08:30,049-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:30,054-INFO-root [test_login.py test_login-37]:输入的username：15549080517，输入的pwd：Aa12345
+2020-06-10 12:08:30,054-INFO-root [get_toast.py get_toast_msg-13]:调用get_toast_msg方法获取断言中
+2020-06-10 12:08:30,059-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[1]/div/span"}
+2020-06-10 12:08:40,090-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/element HTTP/1.1" 404 1067
+2020-06-10 12:08:40,090-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:40,090-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:POST http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/element {"using": "xpath", "value": "//*[@id=\"App\"]/div/div[2]/div[2]/div[2]/div/div/div[1]/p"}
+2020-06-10 12:08:40,110-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "POST /session/1863a2019c3057a339b37e1cd6a54cc8/element HTTP/1.1" 200 88
+2020-06-10 12:08:40,110-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:40,110-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:GET http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8/element/2496a79f-2691-4a99-ae56-6441ee5ef3ee/text {"id": "2496a79f-2691-4a99-ae56-6441ee5ef3ee"}
+2020-06-10 12:08:40,130-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "GET /session/1863a2019c3057a339b37e1cd6a54cc8/element/2496a79f-2691-4a99-ae56-6441ee5ef3ee/text HTTP/1.1" 200 24
+2020-06-10 12:08:40,130-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request
+2020-06-10 12:08:40,130-INFO-root [get_toast.py get_toast_msg-20]:根据弹窗提示语获取登录结果成功, 登录结果为：密码错误
+2020-06-10 12:08:43,140-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-388]:DELETE http://127.0.0.1:54217/session/1863a2019c3057a339b37e1cd6a54cc8 {}
+2020-06-10 12:08:43,210-DEBUG-urllib3.connectionpool [connectionpool.py _make_request-442]:http://127.0.0.1:54217 "DELETE /session/1863a2019c3057a339b37e1cd6a54cc8 HTTP/1.1" 200 14
+2020-06-10 12:08:43,210-DEBUG-selenium.webdriver.remote.remote_connection [remote_connection.py _request-440]:Finished Request

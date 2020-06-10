@@ -1,0 +1,186 @@
+{
+  "uid" : "eeb9d3c1ebd98464",
+  "name" : "test_add_contact[args0]",
+  "fullName" : "scripts.test_contact.TestContact#test_add_contact",
+  "historyId" : "22717db7b3c6143612064d34d59e9ef7",
+  "time" : {
+    "start" : 1591069980524,
+    "stop" : 1591070001829,
+    "duration" : 21305
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击新建联系人按钮",
+      "time" : {
+        "start" : 1591069980524,
+        "stop" : 1591069981371,
+        "duration" : 847
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断是否有保存的toast提示",
+      "time" : {
+        "start" : 1591069981371,
+        "stop" : 1591069983897,
+        "duration" : 2526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入联系人",
+      "time" : {
+        "start" : 1591069983897,
+        "stop" : 1591069991141,
+        "duration" : 7244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5088701506cb194b",
+        "name" : "xiaoming",
+        "source" : "5088701506cb194b.txt",
+        "type" : "text/plain",
+        "size" : 27
+      }, {
+        "uid" : "8ce16272d79f094f",
+        "name" : "截图",
+        "source" : "8ce16272d79f094f.png",
+        "type" : "image/png",
+        "size" : 85998
+      } ],
+      "parameters" : [ {
+        "name" : "contact_text",
+        "value" : "'xiaoming'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "输入电话号码",
+      "time" : {
+        "start" : 1591069991141,
+        "stop" : 1591069999165,
+        "duration" : 8024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f64b09df5af18cf5",
+        "name" : "15549080517",
+        "source" : "f64b09df5af18cf5.txt",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "4d04eab2290b94f4",
+        "name" : "截图",
+        "source" : "4d04eab2290b94f4.png",
+        "type" : "image/png",
+        "size" : 91404
+      } ],
+      "parameters" : [ {
+        "name" : "contact_phone",
+        "value" : "15549080517"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "获取联系人姓名",
+      "time" : {
+        "start" : 1591069999192,
+        "stop" : 1591070001806,
+        "duration" : 2614
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取电话号码",
+      "time" : {
+        "start" : 1591070001806,
+        "stop" : 1591070001829,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContact"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1B6BQCE"
+  }, {
+    "name" : "thread",
+    "value" : "26076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'contact_text': 'xiaoming', 'phone': 15549080517}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eeb9d3c1ebd98464.json",
+  "parameterValues" : [ "{'contact_text': 'xiaoming', 'phone': 15549080517}" ]
+}
