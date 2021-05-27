@@ -1,0 +1,5 @@
+[
+  {"loginName":"15549080517","pwd":"e267cfcd18461ce938067eca67c59f41","isRemember":1,"systemCode":"merchant","expect": "操作成功"},
+  {"loginName":"155490805171","pwd":"e267cfcd18461ce938067eca67c59f41","isRemember":1,"systemCode":"merchant","expect": "用户不存在，请先去注册"}
+
+]
